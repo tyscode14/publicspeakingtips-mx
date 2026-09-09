@@ -43,7 +43,13 @@ function replaceBlock(startMarker, endMarker, inner) {
 const splitNum = v => { const m = String(v).trim().match(/^([+\-]?[\d.,/]+(?:\s+(?:a|to)\s+[\d.,]+)?)\s*(.*)$/); return m ? { n: m[1], u: m[2] } : { n: String(v), u: '' }; };
 // the big numeral already carries the tip number; drop a leading "N. " from headings
 const noNum = s => String(s ?? '').replace(/^\s*\d+\.\s*/, '');
-const link = (text, url) => url ? `<a href="${esc(url)}" rel="noopener">${esc(text)}</a>` : esc(text);
+// Outbound links go only to authority domains and our own sites (site.json authorityDomains).
+// Any other source is still named, but never linked: no relevance passed to competitors.
+const AUTH = (site.authorityDomains || []).map(d => d.toLowerCase());
+const linkable = url => {
+  try { const h = new URL(url).hostname.toLowerCase().replace(/^www\./, ''); return AUTH.some(d => d.startsWith('.') ? h.endsWith(d) : (h === d || h.endsWith('.' + d))); } catch { return false; }
+};
+const link = (text, url) => (url && linkable(url)) ? `<a href="${esc(url)}" rel="noopener">${esc(text)}</a>` : esc(text);
 
 // ---- head + hero
 setSlot('title', esc(c.meta.title));
@@ -99,7 +105,7 @@ function tipHtml(t) {
           </figure>`);
   }
   if (t.checklist && t.checklist.length) extras.push(`<ul class="check">\n${t.checklist.map(li => `            <li>${rich(li)}</li>`).join('\n')}\n          </ul>`);
-  if (t.quote) extras.push(`<blockquote class="pull"${t.quote.url ? ` cite="${esc(t.quote.url)}"` : ''}>
+  if (t.quote) extras.push(`<blockquote class="pull"${t.quote.url && linkable(t.quote.url) ? ` cite="${esc(t.quote.url)}"` : ''}>
             <p>${rich(t.quote.text)}</p>
             <footer>${link(t.quote.cite, t.quote.url)}</footer>
           </blockquote>`);
@@ -134,7 +140,7 @@ function tipHtml(t) {
 }
 
 // ---- sources
-setSlot('fuentes-lista', c.sources.map(s => `\n      <li id="fuente-${s.n}"><cite><a href="${esc(s.url)}" rel="noopener">${esc(s.title)}</a></cite><span class="dom">${esc(s.domain)}</span></li>`).join('') + '\n    ');
+setSlot('fuentes-lista', c.sources.map(s => `\n      <li id="fuente-${s.n}"><cite>${link(s.title, s.url)}</cite><span class="dom">${esc(s.domain)}</span></li>`).join('') + '\n    ');
 if (c.sourcesNote) setSlot('fuentes-nota', esc(c.sourcesNote));
 
 // ---- faq
@@ -164,7 +170,18 @@ if (c.footer && Array.isArray(c.footer.links) && c.footer.links.length) {
 }
 
 // ---- json-ld
-h = h.replace(/(<script type="application\/ld\+json" id="jsonld-slot">)[\s\S]*?(<\/script>)/, (_, a, b) => a + JSON.stringify(c.jsonld).replace(/</g, '\\u003c') + b);
+const jsonld = JSON.parse(JSON.stringify(c.jsonld));
+(function scrub(o) {
+  if (Array.isArray(o)) { o.forEach(scrub); return; }
+  if (!o || typeof o !== 'object') return;
+  for (const k of Object.keys(o)) {
+    const v = o[k];
+    if ((k === 'url' || k === 'sameAs' || k === '@id') && typeof v === 'string' && /^https?:/.test(v) && !linkable(v)) { delete o[k]; continue; }
+    if (k === 'sameAs' && Array.isArray(v)) { o[k] = v.filter(u => typeof u !== 'string' || linkable(u)); if (!o[k].length) delete o[k]; continue; }
+    scrub(v);
+  }
+})(jsonld);
+h = h.replace(/(<script type="application\/ld\+json" id="jsonld-slot">)[\s\S]*?(<\/script>)/, (_, a, b) => a + JSON.stringify(jsonld).replace(/</g, '\\u003c') + b);
 
 // ---- site placeholders: language, domain, UI strings, hreflang
 {

@@ -45,5 +45,32 @@
     "privacyHref": "/aviso-de-privacidad",
     "contact": "Contacto"
   },
-  "anchorPrefix": "consejo"
+  "anchorPrefix": "consejo",
+  "authorityDomains": [
+    ".gov",
+    "nih.gov",
+    "ncbi.nlm.nih.gov",
+    "pmc.ncbi.nlm.nih.gov",
+    "mayoclinic.org",
+    "adaa.org",
+    "apa.org",
+    "nhs.uk",
+    "who.int",
+    "schoolcounselor.org",
+    "sciencedirect.com",
+    "tandfonline.com",
+    "pubmed.ncbi.nlm.nih.gov",
+    "frontiersin.org",
+    "plos.org",
+    "nature.com",
+    "springer.com",
+    "wiley.com",
+    "sagepub.com",
+    "jamanetwork.com",
+    "publicspeakingtips.mx",
+    "publicspeakingtips.io",
+    "amberwillo.com",
+    "confidently.pro",
+    "github.com"
+  ]
 }
