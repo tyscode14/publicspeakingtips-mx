@@ -1,0 +1,48 @@
+{
+  "domain": "publicspeakingtips.mx",
+  "lang": "es-MX",
+  "ogLocale": "es_MX",
+  "hreflang": [
+    {
+      "lang": "es-mx",
+      "href": "https://publicspeakingtips.mx/"
+    },
+    {
+      "lang": "en",
+      "href": "https://publicspeakingtips.io/"
+    },
+    {
+      "lang": "x-default",
+      "href": "https://publicspeakingtips.io/"
+    }
+  ],
+  "ui": {
+    "skip": "Ir al contenido",
+    "homeAria": "publicspeakingtips.mx, inicio",
+    "tocAria": "Contenido",
+    "metaAria": "Datos de la guía",
+    "updatedPrefix": "Actualizado el",
+    "longDate": "{d} de {month} de {y}",
+    "months": [
+      "enero",
+      "febrero",
+      "marzo",
+      "abril",
+      "mayo",
+      "junio",
+      "julio",
+      "agosto",
+      "septiembre",
+      "octubre",
+      "noviembre",
+      "diciembre"
+    ],
+    "readingMinutes": "{n} minutos de lectura",
+    "sources": "Basado en {n} fuentes",
+    "sourceLabel": "Fuente:",
+    "freeTrial": "Prueba gratis",
+    "privacy": "Aviso de privacidad",
+    "privacyHref": "/aviso-de-privacidad",
+    "contact": "Contacto"
+  }
+}

@@ -5,6 +5,8 @@ import { fileURLToPath } from 'node:url';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const tpl = fs.readFileSync(path.join(root, 'template.html'), 'utf8');
 const c = JSON.parse(fs.readFileSync(path.join(root, 'content', 'copy.json'), 'utf8'));
+const site = JSON.parse(fs.readFileSync(path.join(root, 'content', 'site.json'), 'utf8'));
+const ui = site.ui;
 let h = tpl.replace(/\r\n/g, '\n');
 
 const esc = s => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -61,11 +63,11 @@ setSlot('lead', rich(c.hero.lead));
 setAttr('meta-actualizado', 'datetime', c.hero.updated);
 {
   const d = new Date(c.hero.updated + 'T12:00:00Z');
-  const meses = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'];
-  setSlot('meta-actualizado', `${d.getUTCDate()} de ${meses[d.getUTCMonth()]} de ${d.getUTCFullYear()}`);
+  setSlot('meta-actualizado', esc(ui.longDate.replace('{d}', String(d.getUTCDate())).replace('{month}', ui.months[d.getUTCMonth()]).replace('{y}', String(d.getUTCFullYear()))));
 }
-setSlot('meta-lectura', esc(`${c.hero.readingMinutes} minutos de lectura`));
-setSlot('meta-fuentes', esc(`Basado en ${c.hero.sourcesCount ?? c.sources.length} fuentes`));
+setSlot('meta-lectura', esc(ui.readingMinutes.replace('{n}', String(c.hero.readingMinutes))));
+setSlot('meta-fuentes', esc(ui.sources.replace('{n}', String(c.hero.sourcesCount ?? c.sources.length))));
+setSlot('alt-lang', c.altLang && c.altLang.text ? rich(c.altLang.text) : '');
 for (const s of ['cta-header', 'cta-hero']) { setSlot(s, esc(c.hero.ctaText) + ARROW); setAttr(s, 'href', c.closing.ctaHref); }
 
 // ---- toc
@@ -92,7 +94,7 @@ function tipHtml(t) {
     const { n: cn, u } = splitNum(t.callout.value);
     extras.push(`<figure class="callout">
             <p class="callout-n">${esc(cn)}${u ? `<span class="unit">${esc(u)}</span>` : ''}</p>
-            <figcaption><span>${rich(t.callout.text)}</span><small>Fuente: ${link(t.callout.source, t.callout.sourceUrl)}</small></figcaption>
+            <figcaption><span>${rich(t.callout.text)}</span><small>${esc(ui.sourceLabel)} ${link(t.callout.source, t.callout.sourceUrl)}</small></figcaption>
           </figure>`);
   }
   if (t.checklist && t.checklist.length) extras.push(`<ul class="check">\n${t.checklist.map(li => `            <li>${rich(li)}</li>`).join('\n')}\n          </ul>`);
@@ -107,8 +109,8 @@ function tipHtml(t) {
     const cta = t.cta || {};
     inner = `<div class="prose" data-slot="consejo-1-cuerpo">\n          ${body.join('\n          ')}\n        </div>
         <aside class="cta-card" id="cta-consejo-1" aria-labelledby="cta-consejo-1-titulo">
-          <p class="eyebrow" data-slot="cta-1-eyebrow">${esc(cta.eyebrow || 'Prueba gratis')}</p>
-          <h3 id="cta-consejo-1-titulo" data-slot="cta-1-titulo">${esc(cta.title || 'Descubre tu calificación de oratoria en 30 segundos')}</h3>
+          <p class="eyebrow" data-slot="cta-1-eyebrow">${esc(cta.eyebrow || ui.freeTrial)}</p>
+          <h3 id="cta-consejo-1-titulo" data-slot="cta-1-titulo">${esc(cta.title || '')}</h3>
           <p data-slot="cta-1-texto">${rich(cta.description || '')}</p>
           <a class="btn btn--primary" href="${esc(cta.href || c.closing.ctaHref)}" data-slot="cta-1-boton">${esc(cta.text || c.hero.ctaText)}${ARROW}</a>
           <small class="fine" data-slot="cta-1-nota">${esc(cta.note || '')}</small>
@@ -158,6 +160,17 @@ if (c.footer && c.footer.description) setSlot('footer-descripcion', esc(c.footer
 
 // ---- json-ld
 h = h.replace(/(<script type="application\/ld\+json" id="jsonld-slot">)[\s\S]*?(<\/script>)/, (_, a, b) => a + JSON.stringify(c.jsonld).replace(/</g, '\\u003c') + b);
+
+// ---- site placeholders: language, domain, UI strings, hreflang
+{
+  const hreflang = (site.hreflang || []).map(a => `<link rel="alternate" hreflang="${esc(a.lang)}" href="${esc(a.href)}">`).join('\n');
+  const vals = { lang: site.lang, ogLocale: site.ogLocale, domain: site.domain, tld: site.domain.slice(site.domain.lastIndexOf('.')), hreflang };
+  h = h.replace(/\{\{hreflang\}\}/g, hreflang);
+  h = h.replace(/\{\{ui\.([a-zA-Z]+)\}\}/g, (_, k) => { if (!(k in ui)) throw new Error('site.json ui missing: ' + k); return esc(ui[k]); });
+  h = h.replace(/\{\{(lang|ogLocale|domain|tld)\}\}/g, (_, k) => esc(vals[k]));
+  const left = h.match(/\{\{[a-zA-Z.]+\}\}/g);
+  if (left) throw new Error('unfilled placeholders: ' + left.join(' '));
+}
 
 // ---- analytics key (public browser key of the shared Amplitude project; lives in .env.local, never in git)
 {

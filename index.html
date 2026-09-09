@@ -7,7 +7,8 @@
 <meta name="description" data-slot="description" content="Public speaking tips en español de México: 10 consejos para hablar en público con confianza, con cifras verificadas de NIH, Mayo Clinic, Harvard y ADAA, y una prueba gratis de 30 segundos.">
 <link rel="canonical" href="https://publicspeakingtips.mx/">
 <link rel="alternate" hreflang="es-mx" href="https://publicspeakingtips.mx/">
-<link rel="alternate" hreflang="x-default" href="https://publicspeakingtips.mx/">
+<link rel="alternate" hreflang="en" href="https://publicspeakingtips.io/">
+<link rel="alternate" hreflang="x-default" href="https://publicspeakingtips.io/">
 <meta property="og:type" content="article">
 <meta property="og:locale" content="es_MX">
 <meta property="og:site_name" content="publicspeakingtips.mx">
@@ -174,6 +175,10 @@ small{font-size:var(--step--1)}
 .hero{padding-block:var(--space-8)}
 .hero h1{font-size:var(--step-4);font-weight:700;max-width:18ch;margin-top:var(--space-5);line-height:1.02;letter-spacing:-0.025em}
 .hero h1 .kw{font-weight:300;display:block;font-size:0.62em;letter-spacing:-0.01em;color:var(--ink-2);margin-bottom:0.25em}
+.alt-lang{font-family:var(--font-ui);font-size:var(--step--1);color:var(--muted);margin:var(--space-4) 0 0;max-width:58ch}
+.alt-lang:empty{display:none}
+.alt-lang a{color:var(--ink-2);text-decoration:underline;text-underline-offset:0.15em}
+.alt-lang a:hover{color:var(--accent)}
 .lead{font-size:var(--step-1);line-height:1.5;max-width:58ch;margin-top:var(--space-6);color:var(--ink);text-wrap:pretty}
 .hero .meta{margin-top:var(--space-6)}
 .hero .btn{margin-top:var(--space-6)}
@@ -335,6 +340,7 @@ small{font-size:var(--step--1)}
     <p class="eyebrow" data-slot="eyebrow">Consejos para hablar en público, con fuentes verificadas</p>
     <h1 id="titulo" data-slot="h1"><span class="kw">Public Speaking Tips</span>10 consejos para hablar en público con confianza</h1>
     <p class="lead" id="lead" data-slot="lead">Los mejores public speaking tips para México se resumen en tres cosas: practica en voz alta con un poco de presión real, conoce a tu público y controla el ritmo de tu voz. El miedo a hablar en público, la glosofobia, es lo más normal del mundo: cerca del 77% de la población lo siente, según un estudio publicado en PubMed Central, la biblioteca médica de los NIH. La buena noticia es que hablar en público se entrena como cualquier otra habilidad. Aquí tienes 10 consejos para hablar en público con confianza, cada uno con una acción concreta, el tiempo que toma y la fuente que lo respalda.</p>
+    <p class="alt-lang" data-slot="alt-lang">¿Prefieres leer en inglés? Lee estos <a href="https://publicspeakingtips.io/" rel="noopener">public speaking tips</a> en la edición en inglés de esta guía.</p>
     <ul class="meta" aria-label="Datos de la guía">
       <li>Actualizado el <time datetime="2026-09-09" data-slot="meta-actualizado">9 de septiembre de 2026</time></li>
       <li data-slot="meta-lectura">12 minutos de lectura</li>
@@ -731,7 +737,7 @@ small{font-size:var(--step--1)}
   }
   var which=os(); if(!which)return;
   var id=(window.crypto&&crypto.randomUUID)?crypto.randomUUID():String(Date.now())+"-"+Math.random().toString(36).slice(2,12);
-  var dest=which==="ios"?IOS:PLAY+"&referrer="+encodeURIComponent("utm_source=publicspeakingtips&utm_medium=web&utm_content="+id);
+  var dest=which==="ios"?IOS:PLAY+"&referrer="+encodeURIComponent("utm_source=publicspeakingtips.mx&utm_medium=web&utm_content="+id);
   var links=document.querySelectorAll('a[href^="https://quiz.confidently.pro/"]');
   for(var i=0;i<links.length;i++){links[i].setAttribute("data-web-href",links[i].href);links[i].href=dest;links[i].rel="noopener";}
 })();

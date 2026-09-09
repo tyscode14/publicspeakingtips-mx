@@ -6,7 +6,8 @@
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="es-mx" href="https://publicspeakingtips.mx/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://publicspeakingtips.mx/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://publicspeakingtips.io/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://publicspeakingtips.io/" />
   </url>
   <url>
     <loc>https://publicspeakingtips.mx/aviso-de-privacidad</loc>

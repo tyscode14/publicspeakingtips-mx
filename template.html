@@ -1,24 +1,23 @@
 <!DOCTYPE html>
-<html lang="es-MX">
+<html lang="{{lang}}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title data-slot="title">Public Speaking Tips: 10 consejos para hablar en público con confianza | publicspeakingtips.mx</title>
+<title data-slot="title">Public Speaking Tips: 10 consejos para hablar en público con confianza | {{domain}}</title>
 <meta name="description" data-slot="description" content="Diez public speaking tips en español de México, con cifras y fuentes, para hablar en público con voz firme, sin muletillas y sin que te tiemblen las manos.">
-<link rel="canonical" href="https://publicspeakingtips.mx/">
-<link rel="alternate" hreflang="es-mx" href="https://publicspeakingtips.mx/">
-<link rel="alternate" hreflang="x-default" href="https://publicspeakingtips.mx/">
+<link rel="canonical" href="https://{{domain}}/">
+{{hreflang}}
 <meta property="og:type" content="article">
-<meta property="og:locale" content="es_MX">
-<meta property="og:site_name" content="publicspeakingtips.mx">
-<meta property="og:url" content="https://publicspeakingtips.mx/">
+<meta property="og:locale" content="{{ogLocale}}">
+<meta property="og:site_name" content="{{domain}}">
+<meta property="og:url" content="https://{{domain}}/">
 <meta property="og:title" data-slot="og-title" content="Public Speaking Tips: 10 consejos para hablar en público con confianza">
 <meta property="og:description" data-slot="og-description" content="Diez consejos con cifras y fuentes para hablar en público con voz firme y sin muletillas.">
-<meta property="og:image" data-slot="og-image" content="https://publicspeakingtips.mx/og.png">
+<meta property="og:image" data-slot="og-image" content="https://{{domain}}/og.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" data-slot="tw-title" content="Public Speaking Tips: 10 consejos para hablar en público con confianza">
 <meta name="twitter:description" data-slot="tw-description" content="Diez consejos con cifras y fuentes para hablar en público con voz firme y sin muletillas.">
-<meta name="twitter:image" data-slot="tw-image" content="https://publicspeakingtips.mx/og.png">
+<meta name="twitter:image" data-slot="tw-image" content="https://{{domain}}/og.png">
 <meta name="theme-color" content="#F8F7F3" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0F1420" media="(prefers-color-scheme: dark)">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23B5462B'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='Georgia,serif' font-size='38' font-weight='700' fill='%23F7F2E9'%3Ep.%3C/text%3E%3C/svg%3E">
@@ -28,7 +27,7 @@
 <script type="application/ld+json" id="jsonld-slot"></script>
 <style>
 /* ============================================================
-   publicspeakingtips.mx  |  design tokens
+   {{domain}}  |  design tokens
    ============================================================ */
 :root{
   color-scheme:light dark;
@@ -174,6 +173,10 @@ small{font-size:var(--step--1)}
 .hero{padding-block:var(--space-8)}
 .hero h1{font-size:var(--step-4);font-weight:700;max-width:18ch;margin-top:var(--space-5);line-height:1.02;letter-spacing:-0.025em}
 .hero h1 .kw{font-weight:300;display:block;font-size:0.62em;letter-spacing:-0.01em;color:var(--ink-2);margin-bottom:0.25em}
+.alt-lang{font-family:var(--font-ui);font-size:var(--step--1);color:var(--muted);margin:var(--space-4) 0 0;max-width:58ch}
+.alt-lang:empty{display:none}
+.alt-lang a{color:var(--ink-2);text-decoration:underline;text-underline-offset:0.15em}
+.alt-lang a:hover{color:var(--accent)}
 .lead{font-size:var(--step-1);line-height:1.5;max-width:58ch;margin-top:var(--space-6);color:var(--ink);text-wrap:pretty}
 .hero .meta{margin-top:var(--space-6)}
 .hero .btn{margin-top:var(--space-6)}
@@ -301,16 +304,16 @@ small{font-size:var(--step--1)}
 </style>
 </head>
 <body>
-<a class="skip" href="#contenido">Ir al contenido</a>
+<a class="skip" href="#contenido">{{ui.skip}}</a>
 <div id="progreso" aria-hidden="true"></div>
 
 <header class="site-header">
   <div class="wrap wrap--wide topbar">
-    <a class="wordmark" href="https://publicspeakingtips.mx/" aria-label="publicspeakingtips.mx, inicio">publicspeakingtips<span class="tld">.mx</span></a>
+    <a class="wordmark" href="https://{{domain}}/" aria-label="{{ui.homeAria}}">publicspeakingtips<span class="tld">{{tld}}</span></a>
     <a class="btn btn--primary" href="https://quiz.confidently.pro/onboarding" data-slot="cta-header">Haz la prueba gratis de 30 segundos</a>
   </div>
   <div class="wrap wrap--wide toc-wrap">
-    <nav aria-label="Contenido">
+    <nav aria-label="{{ui.tocAria}}">
       <ol class="toc" data-slot="toc">
         <li><a href="#consejo-1"><span class="toc-n">01</span>Practica con la app antes de la fecha real</a></li>
         <li><a href="#consejo-2"><span class="toc-n">02</span>Reduce tu mensaje a tres ideas</a></li>
@@ -335,8 +338,9 @@ small{font-size:var(--step--1)}
     <p class="eyebrow" data-slot="eyebrow">Guía 2026 · México</p>
     <h1 id="titulo" data-slot="h1"><span class="kw">Public Speaking Tips</span>10 consejos para hablar en público con confianza</h1>
     <p class="lead" id="lead" data-slot="lead">Hablar en público con confianza se logra con tres cosas: un mensaje corto que puedas decir en una frase, una voz que respira desde el abdomen y práctica en voz alta antes del día real. No necesitas ser extrovertido ni tener talento natural. Necesitas un método que puedas repetir. En esta guía encuentras diez consejos concretos, cada uno con una cifra que lo respalda y un ejercicio que puedes hacer hoy mismo en cinco minutos, desde una junta en la oficina hasta una exposición en la universidad.</p>
-    <ul class="meta" aria-label="Datos de la guía">
-      <li>Actualizado el <time datetime="2026-09-09" data-slot="meta-actualizado">9 de septiembre de 2026</time></li>
+    <p class="alt-lang" data-slot="alt-lang"></p>
+    <ul class="meta" aria-label="{{ui.metaAria}}">
+      <li>{{ui.updatedPrefix}} <time datetime="2026-09-09" data-slot="meta-actualizado">9 de septiembre de 2026</time></li>
       <li data-slot="meta-lectura">12 minutos de lectura</li>
       <li data-slot="meta-fuentes">Basado en 8 fuentes</li>
     </ul>
@@ -620,14 +624,14 @@ small{font-size:var(--step--1)}
 <footer class="site-footer">
   <div class="wrap wrap--wide foot-grid">
     <div>
-      <a class="wordmark" href="https://publicspeakingtips.mx/">publicspeakingtips<span class="tld">.mx</span></a>
+      <a class="wordmark" href="https://{{domain}}/">publicspeakingtips<span class="tld">{{tld}}</span></a>
       <p data-slot="footer-descripcion">Consejos prácticos y con fuentes para hablar en público con confianza, escritos en español de México.</p>
     </div>
     <ul class="foot-links" data-slot="footer-links">
-      <li><a href="/aviso-de-privacidad">Aviso de privacidad</a></li>
-      <li><a href="mailto:hola@publicspeakingtips.mx">Contacto</a></li>
+      <li><a href="{{ui.privacyHref}}">{{ui.privacy}}</a></li>
+      <li><a href="mailto:hola@{{domain}}">{{ui.contact}}</a></li>
     </ul>
-    <p class="copy" data-slot="footer-copy">© 2026 publicspeakingtips.mx</p>
+    <p class="copy" data-slot="footer-copy">© 2026 {{domain}}</p>
   </div>
 </footer>
 
@@ -638,7 +642,7 @@ small{font-size:var(--step--1)}
 // The admin "Sites" tab reads these events back out of the warehouse by the "site" property.
 (function(){
   var KEY="__AMPLITUDE_KEY__"; if(!KEY||KEY.indexOf("__")===0)return;
-  var SITE="publicspeakingtips.mx", EP="https://api.eu.amplitude.com/2/httpapi";
+  var SITE="{{domain}}", EP="https://api.eu.amplitude.com/2/httpapi";
   function uuid(){ try{ if(window.crypto&&crypto.randomUUID) return crypto.randomUUID(); }catch(e){} return String(Date.now())+"-"+Math.random().toString(36).slice(2,12); }
   function get(s,k){ try{ return s.getItem(k); }catch(e){ return null; } }
   function set(s,k,v){ try{ s.setItem(k,v); }catch(e){} return v; }
@@ -695,7 +699,7 @@ small{font-size:var(--step--1)}
   }
   var which=os(); if(!which)return;
   var id=(window.crypto&&crypto.randomUUID)?crypto.randomUUID():String(Date.now())+"-"+Math.random().toString(36).slice(2,12);
-  var dest=which==="ios"?IOS:PLAY+"&referrer="+encodeURIComponent("utm_source=publicspeakingtips&utm_medium=web&utm_content="+id);
+  var dest=which==="ios"?IOS:PLAY+"&referrer="+encodeURIComponent("utm_source={{domain}}&utm_medium=web&utm_content="+id);
   var links=document.querySelectorAll('a[href^="https://quiz.confidently.pro/"]');
   for(var i=0;i<links.length;i++){links[i].setAttribute("data-web-href",links[i].href);links[i].href=dest;links[i].rel="noopener";}
 })();
