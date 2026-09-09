@@ -40,7 +40,7 @@ function replaceBlock(startMarker, endMarker, inner) {
   const j = h.indexOf(endMarker, i); if (j < 0) throw new Error('block end missing: ' + endMarker);
   h = h.slice(0, i) + inner + h.slice(j + endMarker.length);
 }
-const splitNum = v => { const m = String(v).trim().match(/^([+\-]?[\d.,/]+(?:\s+a\s+[\d.,]+)?)\s*(.*)$/); return m ? { n: m[1], u: m[2] } : { n: String(v), u: '' }; };
+const splitNum = v => { const m = String(v).trim().match(/^([+\-]?[\d.,/]+(?:\s+(?:a|to)\s+[\d.,]+)?)\s*(.*)$/); return m ? { n: m[1], u: m[2] } : { n: String(v), u: '' }; };
 // the big numeral already carries the tip number; drop a leading "N. " from headings
 const noNum = s => String(s ?? '').replace(/^\s*\d+\.\s*/, '');
 const link = (text, url) => url ? `<a href="${esc(url)}" rel="noopener">${esc(text)}</a>` : esc(text);
