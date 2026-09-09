@@ -172,6 +172,8 @@ small{font-size:var(--step--1)}
 /* ---------- hero ---------- */
 .hero{padding-block:var(--space-8)}
 .hero h1{font-size:var(--step-4);font-weight:700;max-width:18ch;margin-top:var(--space-5);line-height:1.02;letter-spacing:-0.025em}
+/* the keyword is its own line visually; the hidden ": " keeps the H1 text reading "Public Speaking Tips: 10 ..." for crawlers and screen readers */
+.hero h1 .sep{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap}
 .hero h1 .kw{font-weight:300;display:block;font-size:0.62em;letter-spacing:-0.01em;color:var(--ink-2);margin-bottom:0.25em}
 .alt-lang{font-family:var(--font-ui);font-size:var(--step--1);color:var(--muted);margin:var(--space-4) 0 0;max-width:58ch}
 .alt-lang:empty{display:none}

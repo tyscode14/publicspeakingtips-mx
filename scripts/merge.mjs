@@ -57,7 +57,7 @@ setSlot('eyebrow', esc(c.hero.eyebrow));
   const h1 = c.hero.h1;
   const idx = h1.indexOf(KW);
   setSlot('h1', idx >= 0
-    ? `<span class="kw">${esc(KW)}</span>${esc(h1.slice(idx + KW.length).replace(/^[\s:.,]+/, ''))}`
+    ? `<span class="kw">${esc(KW)}<span class="sep">: </span></span>${esc(h1.slice(idx + KW.length).replace(/^[\s:.,]+/, ''))}`
     : esc(h1));
 }
 setSlot('lead', rich(c.hero.lead));
