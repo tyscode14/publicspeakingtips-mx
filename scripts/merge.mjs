@@ -158,6 +158,10 @@ setSlot('cta-final-texto', rich(c.closing.text));
 setSlot('cta-final-boton', esc(c.closing.ctaText) + ARROW); setAttr('cta-final-boton', 'href', c.closing.ctaHref);
 if (c.closing.note) setSlot('cta-final-nota', esc(c.closing.note));
 if (c.footer && c.footer.description) setSlot('footer-descripcion', esc(c.footer.description));
+// optional footer link list from the copy; otherwise the template defaults (privacy, contact) stay
+if (c.footer && Array.isArray(c.footer.links) && c.footer.links.length) {
+  setSlot('footer-links', c.footer.links.map(l => `\n      <li><a href="${esc(l.href)}"${/^https?:/.test(l.href) ? ' rel="noopener"' : ''}>${esc(l.text)}</a></li>`).join('') + '\n    ');
+}
 
 // ---- json-ld
 h = h.replace(/(<script type="application\/ld\+json" id="jsonld-slot">)[\s\S]*?(<\/script>)/, (_, a, b) => a + JSON.stringify(c.jsonld).replace(/</g, '\\u003c') + b);

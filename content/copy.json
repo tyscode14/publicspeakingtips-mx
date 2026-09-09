@@ -1595,5 +1595,21 @@
   "altLang": {
     "text": "¿Prefieres leer en inglés? Lee estos [public speaking tips](https://publicspeakingtips.io/) en la edición en inglés de esta guía.",
     "hreflang": "en"
+  },
+  "footer": {
+    "links": [
+      {
+        "text": "Aviso de privacidad",
+        "href": "/aviso-de-privacidad"
+      },
+      {
+        "text": "Contacto",
+        "href": "mailto:hola@publicspeakingtips.mx"
+      },
+      {
+        "text": "discussions",
+        "href": "https://github.com/tyscode14/2wordimprov/discussions/1"
+      }
+    ]
   }
 }
