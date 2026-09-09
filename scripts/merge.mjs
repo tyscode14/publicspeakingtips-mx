@@ -7,6 +7,7 @@ const tpl = fs.readFileSync(path.join(root, 'template.html'), 'utf8');
 const c = JSON.parse(fs.readFileSync(path.join(root, 'content', 'copy.json'), 'utf8'));
 const site = JSON.parse(fs.readFileSync(path.join(root, 'content', 'site.json'), 'utf8'));
 const ui = site.ui;
+const ANCHOR = site.anchorPrefix || "consejo"; // tip section ids and TOC fragments, per language
 let h = tpl.replace(/\r\n/g, '\n');
 
 const esc = s => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -71,7 +72,7 @@ setSlot('alt-lang', c.altLang && c.altLang.text ? rich(c.altLang.text) : '');
 for (const s of ['cta-header', 'cta-hero']) { setSlot(s, esc(c.hero.ctaText) + ARROW); setAttr(s, 'href', c.closing.ctaHref); }
 
 // ---- toc
-setSlot('toc', c.tips.map(t => `\n        <li><a href="#consejo-${t.n}"><span class="toc-n">${String(t.n).padStart(2, '0')}</span>${esc(noNum(t.tocLabel || t.h2))}</a></li>`).join('') + '\n      ');
+setSlot('toc', c.tips.map(t => `\n        <li><a href="#${ANCHOR}-${t.n}"><span class="toc-n">${String(t.n).padStart(2, '0')}</span>${esc(noNum(t.tocLabel || t.h2))}</a></li>`).join('') + '\n      ');
 
 // ---- stats strip
 c.stats.slice(0, 4).forEach((s, i) => {
@@ -108,20 +109,20 @@ function tipHtml(t) {
     // the card closes the tip, as on the sibling page: all prose first, then the offer
     const cta = t.cta || {};
     inner = `<div class="prose" data-slot="consejo-1-cuerpo">\n          ${body.join('\n          ')}\n        </div>
-        <aside class="cta-card" id="cta-consejo-1" aria-labelledby="cta-consejo-1-titulo">
+        <aside class="cta-card" id="cta-${ANCHOR}-1" aria-labelledby="cta-${ANCHOR}-1-titulo">
           <p class="eyebrow" data-slot="cta-1-eyebrow">${esc(cta.eyebrow || ui.freeTrial)}</p>
-          <h3 id="cta-consejo-1-titulo" data-slot="cta-1-titulo">${esc(cta.title || '')}</h3>
+          <h3 id="cta-${ANCHOR}-1-titulo" data-slot="cta-1-titulo">${esc(cta.title || '')}</h3>
           <p data-slot="cta-1-texto">${rich(cta.description || '')}</p>
           <a class="btn btn--primary" href="${esc(cta.href || c.closing.ctaHref)}" data-slot="cta-1-boton">${esc(cta.text || c.hero.ctaText)}${ARROW}</a>
           <small class="fine" data-slot="cta-1-nota">${esc(cta.note || '')}</small>
         </aside>`;
   } else {
-    inner = `<div class="prose" data-slot="consejo-${n}-cuerpo">\n          ${body.join('\n          ')}\n        </div>`;
+    inner = `<div class="prose" data-slot="${ANCHOR}-${n}-cuerpo">\n          ${body.join('\n          ')}\n        </div>`;
   }
-  return `    <section class="tip" id="consejo-${n}" aria-labelledby="consejo-${n}-titulo">
+  return `    <section class="tip" id="${ANCHOR}-${n}" aria-labelledby="${ANCHOR}-${n}-titulo">
       <p class="tip-num" aria-hidden="true"><span class="z">${nn[0]}</span>${nn[1]}</p>
       <div class="tip-body">
-        <h2 id="consejo-${n}-titulo" data-slot="consejo-${n}-titulo">${esc(noNum(t.h2))}</h2>
+        <h2 id="${ANCHOR}-${n}-titulo" data-slot="${ANCHOR}-${n}-titulo">${esc(noNum(t.h2))}</h2>
         ${inner}
       </div>
     </section>`;

@@ -44,5 +44,6 @@
     "privacy": "Aviso de privacidad",
     "privacyHref": "/aviso-de-privacidad",
     "contact": "Contacto"
-  }
+  },
+  "anchorPrefix": "consejo"
 }
