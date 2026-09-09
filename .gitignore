@@ -1,2 +1,5 @@
 .env*
 preview-artifact.html
+
+.vercel
+.vercel
