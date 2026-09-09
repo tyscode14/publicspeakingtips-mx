@@ -49,7 +49,11 @@ const AUTH = (site.authorityDomains || []).map(d => d.toLowerCase());
 const linkable = url => {
   try { const h = new URL(url).hostname.toLowerCase().replace(/^www\./, ''); return AUTH.some(d => d.startsWith('.') ? h.endsWith(d) : (h === d || h.endsWith('.' + d))); } catch { return false; }
 };
-const link = (text, url) => (url && linkable(url)) ? `<a href="${esc(url)}" rel="noopener">${esc(text)}</a>` : esc(text);
+// Our own properties are followed; every cited source is rel="nofollow".
+const OWN = ['publicspeakingtips.mx', 'publicspeakingtips.io', 'amberwillo.com', 'confidently.pro', 'github.com'];
+const isOwn = url => { try { const h = new URL(url).hostname.toLowerCase().replace(/^www\./, ''); return OWN.some(d => h === d || h.endsWith('.' + d)); } catch { return false; } };
+const relFor = url => isOwn(url) ? 'noopener' : 'nofollow noopener';
+const link = (text, url) => (url && linkable(url)) ? `<a href="${esc(url)}" rel="${relFor(url)}">${esc(text)}</a>` : esc(text);
 
 // ---- head + hero
 setSlot('title', esc(c.meta.title));
