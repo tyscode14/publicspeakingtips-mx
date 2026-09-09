@@ -1,0 +1,1595 @@
+{
+  "meta": {
+    "title": "Public Speaking Tips: 10 consejos para hablar en público",
+    "description": "Public speaking tips en español de México: 10 consejos para hablar en público con confianza, con cifras verificadas de NIH, Mayo Clinic, Harvard y ADAA, y una prueba gratis de 30 segundos.",
+    "ogTitle": "Public Speaking Tips: 10 consejos para hablar en público con confianza",
+    "ogDescription": "10 consejos para hablar en público en español de México, cada uno con la acción concreta, el tiempo que toma y la fuente que lo respalda. Incluye una prueba gratis de 30 segundos."
+  },
+  "hero": {
+    "eyebrow": "Consejos para hablar en público, con fuentes verificadas",
+    "h1": "Public Speaking Tips: 10 consejos para hablar en público con confianza",
+    "lead": "Los mejores public speaking tips para México se resumen en tres cosas: practica en voz alta con un poco de presión real, conoce a tu público y controla el ritmo de tu voz. El miedo a hablar en público, la glosofobia, es lo más normal del mundo: cerca del 77% de la población lo siente, según un estudio publicado en PubMed Central, la biblioteca médica de los NIH. La buena noticia es que hablar en público se entrena como cualquier otra habilidad. Aquí tienes 10 consejos para hablar en público con confianza, cada uno con una acción concreta, el tiempo que toma y la fuente que lo respalda.",
+    "updated": "2026-09-09",
+    "readingMinutes": 12,
+    "sourcesCount": 40,
+    "ctaText": "Hacer la prueba gratis de 30 segundos"
+  },
+  "headings": {
+    "stats": "Las cifras que importan",
+    "tips": "Los 10 consejos",
+    "faq": "Preguntas frecuentes sobre hablar en público",
+    "sources": "Fuentes"
+  },
+  "stats": [
+    {
+      "value": "77%",
+      "label": "de la población le teme a hablar en público",
+      "source": "PubMed Central (NIH)",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3647380/",
+      "factId": "52314"
+    },
+    {
+      "value": "+6.6%",
+      "label": "de confianza entre la sesión 6 y la 10, en 8,184 prácticas calificadas por Confidently",
+      "source": "Confidently",
+      "sourceUrl": "https://www.amberwillo.com/public-speaking/tips/",
+      "factId": "confidently-page"
+    },
+    {
+      "value": "154 a 201",
+      "label": "palabras por minuto: el rango de velocidad de las TED Talks",
+      "source": "VirtualSpeech",
+      "sourceUrl": "https://virtualspeech.com/blog/average-speaking-rate-words-per-minute",
+      "factId": "S#63684647"
+    },
+    {
+      "value": "50/70",
+      "label": "regla del contacto visual: mira a los ojos el 50% del tiempo cuando hablas y el 70% cuando escuchas",
+      "source": "Michigan State University Extension",
+      "sourceUrl": "https://www.canr.msu.edu/news/eye_contact_dont_make_these_mistakes",
+      "factId": "S#63596430"
+    }
+  ],
+  "tips": [
+    {
+      "n": 1,
+      "id": "practica-con-confidently",
+      "h2": "1. Practica hablar con confianza usando Confidently",
+      "paragraphs": [
+        "Hablar en voz alta, verte después en video y corregir una cosa concreta es la forma más rápida de mejorar al hablar en público. Leer tus notas otra vez entrena la memoria; la entrega se entrena hablando en tiempo real, con un poco de presión real encima.",
+        "Funciona más rápido de lo que la mayoría espera. En 8,184 sesiones de práctica calificadas por Confidently, los participantes promediaron una confianza 6.6% más alta entre su sexta y décima sesión que en la primera: de 6.22 a 6.63 en una escala de 10. Casi seis de cada diez personas que practicaron al menos seis veces superaron su primera grabación.",
+        "Haz cada intento corto. La claridad alcanza su punto más alto en prácticas de 20 a 59 segundos y baja en las que pasan de un minuto. Una repetición de 50 segundos que repites cinco veces te enseña más que un ensayo largo que nunca revisas.",
+        "La parte difícil es la retroalimentación. Eres un juez parcial de tu propia entrega: casi todos se avergüenzan y dejan de ver el video, o lo ven completo y no notan nada. La cámara del celular te da la grabación, pero no te dice qué corregir. Confidently cierra ese hueco con una prueba gratis en el navegador: recibes dos palabras al azar, hablas 30 segundos en voz alta metiendo las dos en lo que dices, y la app califica tu voz y tu cara en una escala de 10, cuenta tus muletillas y te nombra la única cosa que debes corregir primero."
+      ],
+      "callout": null,
+      "checklist": null,
+      "quote": null,
+      "cta": {
+        "text": "Hacer la prueba gratis de 30 segundos",
+        "href": "https://quiz.confidently.pro/onboarding?ref=publicspeakingtips.mx",
+        "eyebrow": "Prueba gratis en tu navegador",
+        "title": "Descubre tu calificación de oratoria en 30 segundos",
+        "description": "Recibes dos palabras al azar y hablas 30 segundos en voz alta. Confidently califica tu voz y tu cara en una escala de 10, cuenta tus muletillas y te dice la única cosa que debes corregir primero.",
+        "note": "Funciona en el navegador de tu teléfono, sin registro para empezar. La prueba está en inglés por ahora."
+      },
+      "tocLabel": "Practica con Confidently"
+    },
+    {
+      "n": 2,
+      "id": "conoce-a-tu-publico",
+      "h2": "2. Conoce a tu público y conecta con él",
+      "paragraphs": [
+        "Tu público es el grupo de personas que va a escuchar tu mensaje. Conocerlo es un pilar de la oratoria: Harvard lo pone entre sus diez consejos, y un artículo en PubMed Central señala que conocerlo hace el mensaje más pertinente y personal.",
+        "La Universidad de Pittsburgh lo llama análisis de audiencia: identificar quién te escucha y adaptar el discurso a sus intereses, su nivel de comprensión, sus actitudes y sus creencias. Un curso abierto de Texas lo divide en cinco categorías: situación, demografía, psicología, cultura e interés previo por el tema.",
+        "Qué hacer: antes de escribir una línea, dedica diez minutos a responder las cinco preguntas de abajo. Después habla con ellos, no hacia ellos: Harvard recomienda pronombres inclusivos como \"nosotros\" para crear vínculo desde la primera frase."
+      ],
+      "callout": {
+        "value": "5",
+        "text": "categorías de análisis de audiencia: situación, demografía, psicología, cultura e interés previo por el tema.",
+        "source": "OERTx, Texas Higher Education",
+        "sourceUrl": "https://oertx.highered.texas.gov/courseware/lesson/848/overview"
+      },
+      "checklist": [
+        "¿Cuántas personas son y en qué lugar te van a escuchar?",
+        "¿Qué edad, ocupación y contexto cultural tienen?",
+        "¿Qué saben ya del tema?",
+        "¿Qué esperan llevarse de tu presentación?",
+        "¿Qué actitud traen hacia el tema: a favor, en contra o neutral?"
+      ],
+      "quote": null,
+      "cta": null,
+      "tocLabel": "Conoce a tu público"
+    },
+    {
+      "n": 3,
+      "id": "practica-con-exposicion-realista",
+      "h2": "3. Public speaking tips que sí funcionan: practica con exposición realista",
+      "paragraphs": [
+        "Practicar con exposición realista es la forma más confiable de mejorar: las habilidades de un buen orador se aprenden haciendo la cosa real, seguido. Mayo Clinic resume el camino en tres pasos: prepararte, practicar y pedir ayuda si la práctica sola se queda corta.",
+        "Empieza chiquito y desde tu casa. Purdue Global recomienda practicar en voz alta, y la Universidad de Pittsburgh sugiere cronometrar cada ensayo. Di tu apertura solo, luego frente a un amigo de confianza, luego ante un grupo pequeño: eso es exposición gradual. Un estudio en PubMed Central encontró que practicar frente a un público virtual que te apoya mejora la evaluación de tu confianza en la vida real.",
+        "Cuánto tiempo: 5 minutos al día en voz alta es una meta realista y medible. Si prefieres un grupo, Mayo Clinic menciona clubes como Toastmasters International. Y para practicar frente a personas reales desde tu casa está AmberWillo, la página hermana de esta guía en inglés."
+      ],
+      "callout": {
+        "value": "6 de 10",
+        "text": "Casi seis de cada diez personas que practicaron al menos seis veces con Confidently superaron la puntuación de su primera grabación.",
+        "source": "Confidently",
+        "sourceUrl": "https://www.amberwillo.com/public-speaking/tips/"
+      },
+      "checklist": null,
+      "quote": null,
+      "cta": null,
+      "tocLabel": "Exposición realista"
+    },
+    {
+      "n": 4,
+      "id": "lenguaje-corporal",
+      "h2": "4. Usa un lenguaje corporal claro y abierto",
+      "paragraphs": [
+        "Tu cuerpo habla antes que tu boca. Harvard señala que la credibilidad en un discurso viene de tres cosas: lenguaje corporal abierto y amable, un ritmo pausado y contacto visual sostenido.",
+        "Qué hacer: párate derecho, con los hombros hacia atrás y los brazos sueltos. Usa gestos abiertos, con las palmas visibles, cuando quieras subrayar una idea. Ensaya frente al espejo para ver tu postura y tus gestos, un consejo que repiten coaches como Shola Kaye.",
+        "Con la mirada, usa la regla 50/70 que recomienda la Extensión de Michigan State University: mira a los ojos alrededor del 50% del tiempo cuando hablas y el 70% cuando escuchas. Sostén la mirada con una persona de 3 a 5 segundos, lo que dura una frase, y cambia de zona."
+      ],
+      "callout": {
+        "value": "50/70",
+        "text": "regla del contacto visual: 50% del tiempo cuando hablas, 70% cuando escuchas, con miradas de 3 a 5 segundos por persona.",
+        "source": "Michigan State University Extension",
+        "sourceUrl": "https://www.canr.msu.edu/news/eye_contact_dont_make_these_mistakes"
+      },
+      "checklist": null,
+      "quote": null,
+      "cta": null,
+      "tocLabel": "Lenguaje corporal"
+    },
+    {
+      "n": 5,
+      "id": "controla-tu-voz",
+      "h2": "5. Controla tu voz: ritmo, volumen y tono",
+      "paragraphs": [
+        "Tu voz es tu herramienta principal. Purdue Global recomienda variar la velocidad a la que hablas: baja el ritmo en un punto clave y acelera un poco en la información secundaria.",
+        "Las cifras ayudan a calibrar. Una velocidad cómoda para presentaciones está entre 100 y 150 palabras por minuto, y las TED Talks promedian 173, con un rango de 154 a 201, según VirtualSpeech (medido en inglés). Un rango recomendado va de 120 a 170. Por encima de 180 palabras por minuto la comprensión baja. Grábate 1 minuto, cuenta las palabras y ya sabes dónde estás.",
+        "El ritmo es además la señal que más pesa: en las 8,184 sesiones calificadas por Confidently, la confianza promedio subió de 5.52 en la banda de ritmo más baja a 6.68 en la más alta. Para el volumen y el tono, usa las cinco P de la voz: tono (pitch), ritmo (pace), pausa, proyección y pasión. Ajusta el volumen al tamaño del lugar y súbelo en las frases que importan."
+      ],
+      "callout": {
+        "value": "173 ppm",
+        "text": "palabras por minuto en promedio en las TED Talks (rango de 154 a 201); una presentación cómoda va de 100 a 150.",
+        "source": "VirtualSpeech",
+        "sourceUrl": "https://virtualspeech.com/blog/average-speaking-rate-words-per-minute"
+      },
+      "checklist": null,
+      "quote": null,
+      "cta": null,
+      "tocLabel": "Ritmo, volumen y tono"
+    },
+    {
+      "n": 6,
+      "id": "apertura-fuerte",
+      "h2": "6. Empieza fuerte con una apertura que atrape",
+      "paragraphs": [
+        "Las primeras palabras que salen de tu boca son las más importantes: así resume el Dr. Rosenbaum su regla número uno. El Moxie Institute lo mide: tienes los primeros 30 segundos para dar un gancho convincente, y justo después debes dejar clarísimo tu mensaje central.",
+        "Qué hacer: escribe tu apertura completa y apréndetela. Tres opciones que funcionan: un dato que sorprenda, una pregunta directa al público o una historia corta de 3 o 4 frases. Después di en una frase de qué trata tu charla y qué se van a llevar.",
+        "Para el resto, usa la regla 3:2:1: las tres cosas más importantes que quieres que recuerden, respaldadas con dos ejemplos concretos. Esa estructura te quita el rollo y te da claridad bajo presión. Cuánto tiempo: escribir y memorizar una apertura de 30 segundos toma unos veinte minutos."
+      ],
+      "callout": {
+        "value": "30 s",
+        "text": "Los primeros 30 segundos deciden si el público se engancha: ahí va el gancho, y justo después tu mensaje central.",
+        "source": "Moxie Institute",
+        "sourceUrl": "https://www.moxieinstitute.com/how-to-structure-speech-award-winning-speakers/"
+      },
+      "checklist": null,
+      "quote": null,
+      "cta": null,
+      "tocLabel": "Apertura fuerte"
+    },
+    {
+      "n": 7,
+      "id": "calma-los-nervios",
+      "h2": "7. Calma los nervios con respiración y mentalidad",
+      "paragraphs": [
+        "Los nervios son normales: Harvard lo dice en su primer consejo, y Mayo Clinic describe el miedo a hablar en público como una forma común de ansiedad de desempeño. Los síntomas típicos, según la Universidad de Pittsburgh: temblor, sudor, boca seca, latidos rápidos y voz aguda. Cerca del 77% de la población siente este miedo, y entre 15% y 30% tiene ansiedad de hablar en público como tal, según estudios en PubMed Central.",
+        "Qué hacer con el cuerpo: Mayo Clinic recomienda dos o más respiraciones profundas y lentas antes de empezar y durante el discurso. Si quieres conteo, usa la 4-7-8: inhala por la nariz 4 segundos, sostén 7 y exhala por la boca 8. La ADAA (Anxiety and Depression Association of America) suma yoga, meditación y limitar la cafeína, y la consejería de la Universidad de Iowa señala que el ejercicio aeróbico diario puede recortar la ansiedad hasta 50%.",
+        "Qué hacer con la cabeza: visualiza que sale bien y enfócate en tu capacidad para manejar la situación, como aconseja la ADAA. Si la práctica sola se queda corta, Mayo Clinic indica que la terapia cognitivo conductual alivia este miedo; un metaanálisis en PubMed Central encontró un efecto grande de las intervenciones psicológicas (g de Hedges de 0.74). Cuánto tiempo: dos minutos de respiración antes de entrar cambian cómo sale tu voz."
+      ],
+      "callout": {
+        "value": "15% a 30%",
+        "text": "de la población tiene ansiedad de hablar en público; hasta 10% dice que le interfiere con el trabajo o los estudios.",
+        "source": "PubMed Central (NIH), PMC4763377",
+        "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4763377/"
+      },
+      "checklist": null,
+      "quote": {
+        "text": "About 77% of the general population fears public speaking.",
+        "cite": "PMC3647380, PubMed Central (NIH)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3647380/"
+      },
+      "cta": null,
+      "tocLabel": "Calma los nervios"
+    },
+    {
+      "n": 8,
+      "id": "historias-y-humor",
+      "h2": "8. Usa historias y humor para que te recuerden",
+      "paragraphs": [
+        "Las historias y el humor son la forma más directa de que tu mensaje se quede. Harvard lo incluye entre sus diez consejos: usar humor, contar historias y dejar que tu personalidad se note atrapa la atención y le da un toque personal a la charla.",
+        "Qué hacer: elige una historia personal que conecte con algo que tu público también ha vivido. Cuéntala con principio, problema y resultado, en menos de un minuto. Mete el humor dentro de la historia, en una observación que cause gracia, en lugar de un chiste suelto.",
+        "Cuánto tiempo: una historia de un minuto por cada idea clave. Con la regla 3:2:1 del consejo 6, tus dos ejemplos por idea pueden ser dos historias cortas."
+      ],
+      "callout": null,
+      "checklist": null,
+      "quote": null,
+      "cta": null,
+      "tocLabel": "Historias y humor"
+    },
+    {
+      "n": 9,
+      "id": "apoyos-visuales",
+      "h2": "9. Usa apoyos visuales que sumen a tu mensaje",
+      "paragraphs": [
+        "Un apoyo visual es cualquier objeto, imagen, diapositiva o demostración que refuerza lo que dices. La Universidad de Pittsburgh explica que los apoyos visuales ayudan muchísimo a la efectividad de un discurso cuando complementan la charla en lugar de sustituirla. American Public University agrega que un apoyo visual alivia la ansiedad.",
+        "Qué hacer: haz que cada visual sea de verdad visual, con una imagen o una gráfica en lugar de párrafos. Babson lo resume: mantenlos simples. Harvard pide que cada apoyo cumpla una de dos funciones: aclarar el contenido o captar y sostener la atención.",
+        "Antes de empezar, deja todo montado y probado: Pittsburgh recomienda instalar el apoyo visual antes del discurso. Cuánto tiempo: llega quince minutos antes para conectar, proyectar y ver una diapositiva desde el fondo."
+      ],
+      "callout": null,
+      "checklist": [
+        "Una idea por diapositiva.",
+        "Imagen o gráfica en lugar de texto.",
+        "Letra legible desde la última fila.",
+        "Equipo conectado y probado antes de empezar."
+      ],
+      "quote": null,
+      "cta": null,
+      "tocLabel": "Apoyos visuales"
+    },
+    {
+      "n": 10,
+      "id": "pide-retroalimentacion",
+      "h2": "10. Pide retroalimentación y úsala para mejorar",
+      "paragraphs": [
+        "La retroalimentación es tu brújula. Purdue Global recomienda pedirla para sostener la práctica y el crecimiento, y un artículo en PubMed Central la define como información que pides con el objetivo de mejorar tu desempeño. Harvard lo cierra: mejorar al hablar en público es un proceso continuo, y la meta es avanzar.",
+        "Qué hacer durante la charla: observa las señales del público y adapta sobre la marcha, como recomienda Harvard. Qué hacer después: pídele a una persona de confianza un comentario concreto sobre una sola cosa (el ritmo, la mirada, las muletillas).",
+        "Qué hacer cuando estás solo: grábate y califícate. Confidently hace justo eso en 30 segundos: califica tu voz y tu cara en una escala de 10, cuenta tus muletillas y te nombra la única cosa que debes corregir primero. Repite la prueba tras cada bloque de práctica y compara."
+      ],
+      "callout": {
+        "value": "1",
+        "text": "Confidently te nombra la única cosa que debes corregir primero, para que cada práctica tenga un objetivo.",
+        "source": "Confidently",
+        "sourceUrl": "https://www.amberwillo.com/public-speaking/tips/"
+      },
+      "checklist": null,
+      "quote": null,
+      "cta": {
+        "text": "Hacer la prueba gratis de 30 segundos",
+        "href": "https://quiz.confidently.pro/onboarding?ref=publicspeakingtips.mx"
+      },
+      "tocLabel": "Pide retroalimentación"
+    }
+  ],
+  "sources": [
+    {
+      "n": 1,
+      "title": "Public speaking anxiety: prevalencia (PMC3647380)",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3647380/",
+      "usedIn": [
+        7
+      ]
+    },
+    {
+      "n": 2,
+      "title": "Public speaking anxiety y DSM-5 (PMC4763377)",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4763377/",
+      "usedIn": [
+        7
+      ]
+    },
+    {
+      "n": 3,
+      "title": "Metaanálisis de intervenciones psicológicas para el miedo a hablar en público (PMC6428748)",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6428748/",
+      "usedIn": [
+        7
+      ]
+    },
+    {
+      "n": 4,
+      "title": "Práctica frente a un público virtual y confianza en la vida real (PMC10460391)",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10460391/",
+      "usedIn": [
+        3
+      ]
+    },
+    {
+      "n": 5,
+      "title": "Conocer a tu audiencia hace el mensaje más pertinente (PMC6505544)",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6505544/",
+      "usedIn": [
+        2
+      ]
+    },
+    {
+      "n": 6,
+      "title": "Búsqueda de retroalimentación y desempeño (PMC9355701)",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9355701/",
+      "usedIn": [
+        10
+      ]
+    },
+    {
+      "n": 7,
+      "title": "Mayo Clinic: Fear of public speaking, how can I overcome it?",
+      "domain": "mayoclinic.org",
+      "url": "https://www.mayoclinic.org/diseases-conditions/specific-phobias/expert-answers/fear-of-public-speaking/faq-20058416",
+      "usedIn": [
+        3,
+        7
+      ]
+    },
+    {
+      "n": 8,
+      "title": "ADAA: Conquering Stage Fright",
+      "domain": "adaa.org",
+      "url": "https://adaa.org/understanding-anxiety/social-anxiety-disorder/treatment/conquering-stage-fright",
+      "usedIn": [
+        7
+      ]
+    },
+    {
+      "n": 9,
+      "title": "Harvard DCE: 10 Tips for Improving Your Public Speaking Skills",
+      "domain": "professional.dce.harvard.edu",
+      "url": "https://professional.dce.harvard.edu/blog/10-tips-for-improving-your-public-speaking-skills/",
+      "usedIn": [
+        2,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "n": 10,
+      "title": "Harvard DCE: 5 Ways to Establish Your Credibility in a Speech",
+      "domain": "professional.dce.harvard.edu",
+      "url": "https://professional.dce.harvard.edu/blog/5-ways-to-establish-your-credibility-in-a-speech/",
+      "usedIn": [
+        4
+      ]
+    },
+    {
+      "n": 11,
+      "title": "Harvard DCE: Make Your Speech All About the Audience",
+      "domain": "professional.dce.harvard.edu",
+      "url": "https://professional.dce.harvard.edu/blog/make-your-speech-all-about-the-audience/",
+      "usedIn": [
+        2
+      ]
+    },
+    {
+      "n": 12,
+      "title": "Purdue Global: 11 Public Speaking Tips",
+      "domain": "purdueglobal.edu",
+      "url": "https://www.purdueglobal.edu/blog/student-life/public-speaking-tips/",
+      "usedIn": [
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "n": 13,
+      "title": "Purdue Global: Develop a Growth Mindset",
+      "domain": "purdueglobal.edu",
+      "url": "https://www.purdueglobal.edu/blog/careers/develop-growth-mindset/",
+      "usedIn": [
+        10
+      ]
+    },
+    {
+      "n": 14,
+      "title": "University of Pittsburgh: Speech Anxiety",
+      "domain": "comm.pitt.edu",
+      "url": "https://www.comm.pitt.edu/speech-anxiety",
+      "usedIn": [
+        3,
+        7
+      ]
+    },
+    {
+      "n": 15,
+      "title": "University of Pittsburgh: Audience Analysis",
+      "domain": "comm.pitt.edu",
+      "url": "https://www.comm.pitt.edu/oral-comm-lab/audience-analysis",
+      "usedIn": [
+        2
+      ]
+    },
+    {
+      "n": 16,
+      "title": "University of Pittsburgh: Visual Aids",
+      "domain": "comm.pitt.edu",
+      "url": "https://www.comm.pitt.edu/visual-aids",
+      "usedIn": [
+        9
+      ]
+    },
+    {
+      "n": 17,
+      "title": "OERTx (Texas Higher Education): Audience Analysis",
+      "domain": "oertx.highered.texas.gov",
+      "url": "https://oertx.highered.texas.gov/courseware/lesson/848/overview",
+      "usedIn": [
+        2
+      ]
+    },
+    {
+      "n": 18,
+      "title": "Babson College: Public Speaker",
+      "domain": "entrepreneurship.babson.edu",
+      "url": "https://entrepreneurship.babson.edu/public-speaker/",
+      "usedIn": [
+        9
+      ]
+    },
+    {
+      "n": 19,
+      "title": "American Public University: Public Speaker Skills",
+      "domain": "apu.apus.edu",
+      "url": "https://www.apu.apus.edu/area-of-study/arts-and-humanities/resources/public-speaker-skills-and-how-you-can-improve-your-speeches/",
+      "usedIn": [
+        9
+      ]
+    },
+    {
+      "n": 20,
+      "title": "VirtualSpeech: Average Speaking Rate (words per minute)",
+      "domain": "virtualspeech.com",
+      "url": "https://virtualspeech.com/blog/average-speaking-rate-words-per-minute",
+      "usedIn": [
+        5
+      ]
+    },
+    {
+      "n": 21,
+      "title": "100th Monkey: Words per minute, how to speak slower",
+      "domain": "100monkey.co.uk",
+      "url": "https://www.100monkey.co.uk/insights/words-per-minute-how-to-speak-slower-when-public-speaking/",
+      "usedIn": [
+        5
+      ]
+    },
+    {
+      "n": 22,
+      "title": "Michigan State University Extension: Eye contact, don't make these mistakes",
+      "domain": "canr.msu.edu",
+      "url": "https://www.canr.msu.edu/news/eye_contact_dont_make_these_mistakes",
+      "usedIn": [
+        4
+      ]
+    },
+    {
+      "n": 23,
+      "title": "Verywell Mind: How do I maintain good eye contact?",
+      "domain": "verywellmind.com",
+      "url": "https://www.verywellmind.com/how-do-i-maintain-good-eye-contact-3024392",
+      "usedIn": [
+        4
+      ]
+    },
+    {
+      "n": 24,
+      "title": "Moxie Institute: How to Structure a Speech",
+      "domain": "moxieinstitute.com",
+      "url": "https://www.moxieinstitute.com/how-to-structure-speech-award-winning-speakers/",
+      "usedIn": [
+        6
+      ]
+    },
+    {
+      "n": 25,
+      "title": "The Rheumatologist: Rosenbaum's 5 Rules for Public Speaking",
+      "domain": "the-rheumatologist.org",
+      "url": "https://www.the-rheumatologist.org/article/rosenbaums-5-rules-for-public-speaking/",
+      "usedIn": [
+        6
+      ]
+    },
+    {
+      "n": 26,
+      "title": "Genard Method: The Six Rules of Effective Public Speaking",
+      "domain": "genardmethod.com",
+      "url": "https://www.genardmethod.com/blog/the-six-rules-of-effective-public-speaking-0",
+      "usedIn": [
+        6
+      ]
+    },
+    {
+      "n": 27,
+      "title": "Simon Sinek: Simon's #1 Rule of Public Speaking",
+      "domain": "linkedin.com",
+      "url": "https://www.linkedin.com/pulse/simons-1-rule-public-speaking-simon-sinek-8dufe",
+      "usedIn": [
+        6
+      ]
+    },
+    {
+      "n": 28,
+      "title": "Joe Yazbeck: The 5 C's of a Commanding Speaker",
+      "domain": "linkedin.com",
+      "url": "https://www.linkedin.com/pulse/5cs-commanding-speaker-joe-yazbeck-1e",
+      "usedIn": [
+        6
+      ]
+    },
+    {
+      "n": 29,
+      "title": "Vista Projects: Effective Communication (5 C's)",
+      "domain": "vistaprojects.com",
+      "url": "https://www.vistaprojects.com/effective-communication/",
+      "usedIn": [
+        6
+      ]
+    },
+    {
+      "n": 30,
+      "title": "Lemonade Day: Public Speaking for Kids (5 P's de la voz)",
+      "domain": "lemonadeday.org",
+      "url": "https://lemonadeday.org/blog/public-speaking-for-kids",
+      "usedIn": [
+        5
+      ]
+    },
+    {
+      "n": 31,
+      "title": "r/ConnectBetter: The 3:2:1 speaking trick",
+      "domain": "reddit.com",
+      "url": "https://www.reddit.com/r/ConnectBetter/comments/1rcqlxf/the_321_speaking_trick_that_forces_you_to_stop/",
+      "usedIn": [
+        6,
+        8
+      ]
+    },
+    {
+      "n": 32,
+      "title": "American School Counselor Association: Coping with Student Anxiety (4-7-8)",
+      "domain": "schoolcounselor.org",
+      "url": "https://www.schoolcounselor.org/newsletters/january-2020/coping-with-student-anxiety",
+      "usedIn": [
+        7
+      ]
+    },
+    {
+      "n": 33,
+      "title": "University of Iowa Counseling: 30 Ways to Manage Speaking Anxiety",
+      "domain": "counseling.uiowa.edu",
+      "url": "https://counseling.uiowa.edu/news/2015/09/30-ways-manage-speaking-anxiety",
+      "usedIn": [
+        7
+      ]
+    },
+    {
+      "n": 34,
+      "title": "Journal of Further and Higher Education: definición de glosofobia",
+      "domain": "tandfonline.com",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/0309877X.2021.1948509",
+      "usedIn": [
+        7
+      ]
+    },
+    {
+      "n": 35,
+      "title": "Acta Psychologica: edad y ansiedad de hablar en público",
+      "domain": "sciencedirect.com",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0001691826000466",
+      "usedIn": [
+        7
+      ]
+    },
+    {
+      "n": 36,
+      "title": "MentalHealth.com: exposición gradual",
+      "domain": "mentalhealth.com",
+      "url": "https://www.mentalhealth.com/library/what-we-fear-more-than-death",
+      "usedIn": [
+        3
+      ]
+    },
+    {
+      "n": 37,
+      "title": "Shola Kaye: Top 5 problems people have with public speaking",
+      "domain": "sholakaye.com",
+      "url": "https://sholakaye.com/learning-centre/what-are-the-top-5-problems-people-have-with-public-speaking/",
+      "usedIn": [
+        4
+      ]
+    },
+    {
+      "n": 38,
+      "title": "SLCC Pressbooks: Visual aids (COMM 1020)",
+      "domain": "slcc.pressbooks.pub",
+      "url": "https://slcc.pressbooks.pub/comm1020/chapter/chapter-10/",
+      "usedIn": [
+        9
+      ]
+    },
+    {
+      "n": 39,
+      "title": "Using SMART goals to help with public speaking anxiety",
+      "domain": "medium.com",
+      "url": "https://medium.com/@academicstandup/using-smart-goals-to-help-with-public-speaking-anxiety",
+      "usedIn": [
+        3
+      ]
+    },
+    {
+      "n": 40,
+      "title": "AmberWillo: 10 Public Speaking Tips (página hermana en inglés, datos de Confidently)",
+      "domain": "amberwillo.com",
+      "url": "https://www.amberwillo.com/public-speaking/tips/",
+      "usedIn": [
+        1,
+        3,
+        5,
+        10
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Cuáles son las 5 C de hablar en público?",
+      "a": "Las 5 C son un marco para evaluar la entrega de un discurso. La versión más citada, del coach Joe Yazbeck, es: cómodo, cercano (caring), confiado, creíble y carismático. Otras listas añaden claridad, cohesión y concisión."
+    },
+    {
+      "q": "¿Qué es la regla 3:2:1 para hablar?",
+      "a": "Es una estructura para dejar de divagar: piensa en las tres cosas más importantes que quieres que recuerden y respáldalas con dos ejemplos concretos. El mismo principio aplica al ensayo: en las 8,184 sesiones calificadas por Confidently, la claridad fue más alta en prácticas de 20 a 59 segundos que en las de más de un minuto."
+    },
+    {
+      "q": "¿Qué es la glosofobia y qué tan común es?",
+      "a": "Glosofobia es el nombre técnico del miedo a hablar en público: una ansiedad social específica que aparece al dar una presentación, real o anticipada, y que el DSM-5 clasifica dentro de la ansiedad social. Cerca del 77% de la población siente este miedo en algún grado, y entre 15% y 30% tiene ansiedad de hablar en público como tal, según estudios en PubMed Central. Los adultos jóvenes la sufren más que los mayores."
+    },
+    {
+      "q": "¿Cuál es la regla número 1 para hablar en público?",
+      "a": "Depende de a quién le preguntes. Gary Genard dice que es hacer del público el centro de tu universo. El Dr. Rosenbaum dice que las primeras palabras son las más importantes. Simon Sinek dice que tienes que llegar a dar. Con datos, es el ritmo: en 8,184 sesiones calificadas por Confidently, el ritmo fue la señal más ligada a sonar seguro, con la confianza promedio subiendo de 5.52 a 6.68 entre la banda más baja y la más alta."
+    },
+    {
+      "q": "¿A qué velocidad debo hablar en una presentación?",
+      "a": "Una velocidad cómoda para presentaciones está entre 100 y 150 palabras por minuto, y un rango recomendado va de 120 a 170. Las TED Talks promedian 173, con un rango de 154 a 201. Estas cifras se midieron en inglés; en español, cuenta las palabras de 1 minuto de tu propia grabación y ajusta."
+    },
+    {
+      "q": "¿Cuáles son las 5 P de hablar en público?",
+      "a": "Hay dos versiones. La de preparación: propósito, pasión, preparación, práctica y presentación (performance). La de la voz: tono (pitch), ritmo (pace), pausa, proyección y pasión. Las dos sirven como lista de revisión antes de una charla."
+    }
+  ],
+  "closing": {
+    "h2": "Escucha qué tan seguro suenas en realidad",
+    "text": "Una prueba gratis de 30 segundos califica tu voz y tu cara, y te muestra la única cosa que debes practicar después. Es privada: solo tú ves tu resultado. Hablas 30 segundos, esperas el análisis y recibes tu puntuación.",
+    "ctaText": "Hacer la prueba gratis de 30 segundos",
+    "ctaHref": "https://quiz.confidently.pro/onboarding?ref=publicspeakingtips.mx",
+    "note": "Sin registro para empezar. La prueba está en inglés por ahora."
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://publicspeakingtips.mx/#organization",
+        "name": "publicspeakingtips.mx",
+        "url": "https://publicspeakingtips.mx/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://publicspeakingtips.mx/icon.png"
+        },
+        "sameAs": [
+          "https://www.amberwillo.com/public-speaking/tips/"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://publicspeakingtips.mx/#website",
+        "name": "publicspeakingtips.mx",
+        "url": "https://publicspeakingtips.mx/",
+        "inLanguage": "es-MX",
+        "publisher": {
+          "@id": "https://publicspeakingtips.mx/#organization"
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://publicspeakingtips.mx/#webpage",
+        "url": "https://publicspeakingtips.mx/",
+        "name": "Public Speaking Tips: 10 consejos para hablar en público",
+        "description": "Public speaking tips en español de México: 10 consejos para hablar en público con confianza, con cifras verificadas de NIH, Mayo Clinic, Harvard y ADAA, y una prueba gratis de 30 segundos.",
+        "inLanguage": "es-MX",
+        "isPartOf": {
+          "@id": "https://publicspeakingtips.mx/#website"
+        },
+        "about": {
+          "@id": "https://publicspeakingtips.mx/#article"
+        },
+        "breadcrumb": {
+          "@id": "https://publicspeakingtips.mx/#breadcrumb"
+        },
+        "datePublished": "2026-09-09",
+        "dateModified": "2026-09-09"
+      },
+      {
+        "@type": "Article",
+        "@id": "https://publicspeakingtips.mx/#article",
+        "headline": "Public Speaking Tips: 10 consejos para hablar en público con confianza",
+        "description": "Public speaking tips en español de México: 10 consejos para hablar en público con confianza, con cifras verificadas de NIH, Mayo Clinic, Harvard y ADAA, y una prueba gratis de 30 segundos.",
+        "inLanguage": "es-MX",
+        "url": "https://publicspeakingtips.mx/",
+        "mainEntityOfPage": {
+          "@id": "https://publicspeakingtips.mx/#webpage"
+        },
+        "datePublished": "2026-09-09",
+        "dateModified": "2026-09-09",
+        "author": {
+          "@id": "https://publicspeakingtips.mx/#organization"
+        },
+        "publisher": {
+          "@id": "https://publicspeakingtips.mx/#organization"
+        },
+        "keywords": [
+          "public speaking tips",
+          "consejos para hablar en público",
+          "tips para hablar en público",
+          "oratoria",
+          "miedo a hablar en público",
+          "glosofobia",
+          "hablar en público con confianza"
+        ],
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "Public speaking",
+            "sameAs": "https://www.wikidata.org/wiki/Q181839"
+          },
+          {
+            "@type": "Thing",
+            "name": "Glosofobia",
+            "sameAs": "https://www.wikidata.org/wiki/Q1531181"
+          }
+        ],
+        "citation": [
+          {
+            "@type": "CreativeWork",
+            "name": "Public speaking anxiety: prevalencia (PMC3647380)",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3647380/"
+          },
+          {
+            "@type": "CreativeWork",
+            "name": "Public speaking anxiety y DSM-5 (PMC4763377)",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4763377/"
+          },
+          {
+            "@type": "CreativeWork",
+            "name": "Metaanálisis de intervenciones psicológicas para el miedo a hablar en público (PMC6428748)",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6428748/"
+          },
+          {
+            "@type": "CreativeWork",
+            "name": "Práctica frente a un público virtual y confianza en la vida real (PMC10460391)",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10460391/"
+          },
+          {
+            "@type": "CreativeWork",
+            "name": "Conocer a tu audiencia hace el mensaje más pertinente (PMC6505544)",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6505544/"
+          },
+          {
+            "@type": "CreativeWork",
+            "name": "Búsqueda de retroalimentación y desempeño (PMC9355701)",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9355701/"
+          },
+          {
+            "@type": "CreativeWork",
+            "name": "Mayo Clinic: Fear of public speaking, how can I overcome it?",
+            "url": "https://www.mayoclinic.org/diseases-conditions/specific-phobias/expert-answers/fear-of-public-speaking/faq-20058416"
+          },
+          {
+            "@type": "CreativeWork",
+            "name": "ADAA: Conquering Stage Fright",
+            "url": "https://adaa.org/understanding-anxiety/social-anxiety-disorder/treatment/conquering-stage-fright"
+          },
+          {
+            "@type": "CreativeWork",
+            "name": "Harvard DCE: 10 Tips for Improving Your Public Speaking Skills",
+            "url": "https://professional.dce.harvard.edu/blog/10-tips-for-improving-your-public-speaking-skills/"
+          },
+          {
+            "@type": "CreativeWork",
+            "name": "Harvard DCE: 5 Ways to Establish Your Credibility in a Speech",
+            "url": "https://professional.dce.harvard.edu/blog/5-ways-to-establish-your-credibility-in-a-speech/"
+          },
+          {
+            "@type": "CreativeWork",
+            "name": "Harvard DCE: Make Your Speech All About the Audience",
+            "url": "https://professional.dce.harvard.edu/blog/make-your-speech-all-about-the-audience/"
+          },
+          {
+            "@type": "CreativeWork",
+            "name": "Purdue Global: 11 Public Speaking Tips",
+            "url": "https://www.purdueglobal.edu/blog/student-life/public-speaking-tips/"
+          },
+          {
+            "@type": "CreativeWork",
+            "name": "Purdue Global: Develop a Growth Mindset",
+            "url": "https://www.purdueglobal.edu/blog/careers/develop-growth-mindset/"
+          },
+          {
+            "@type": "CreativeWork",
+            "name": "University of Pittsburgh: Speech Anxiety",
+            "url": "https://www.comm.pitt.edu/speech-anxiety"
+          },
+          {
+            "@type": "CreativeWork",
+            "name": "University of Pittsburgh: Audience Analysis",
+            "url": "https://www.comm.pitt.edu/oral-comm-lab/audience-analysis"
+          },
+          {
+            "@type": "CreativeWork",
+            "name": "University of Pittsburgh: Visual Aids",
+            "url": "https://www.comm.pitt.edu/visual-aids"
+          },
+          {
+            "@type": "CreativeWork",
+            "name": "OERTx (Texas Higher Education): Audience Analysis",
+            "url": "https://oertx.highered.texas.gov/courseware/lesson/848/overview"
+          },
+          {
+            "@type": "CreativeWork",
+            "name": "Babson College: Public Speaker",
+            "url": "https://entrepreneurship.babson.edu/public-speaker/"
+          },
+          {
+            "@type": "CreativeWork",
+            "name": "American Public University: Public Speaker Skills",
+            "url": "https://www.apu.apus.edu/area-of-study/arts-and-humanities/resources/public-speaker-skills-and-how-you-can-improve-your-speeches/"
+          },
+          {
+            "@type": "CreativeWork",
+            "name": "VirtualSpeech: Average Speaking Rate (words per minute)",
+            "url": "https://virtualspeech.com/blog/average-speaking-rate-words-per-minute"
+          },
+          {
+            "@type": "CreativeWork",
+            "name": "100th Monkey: Words per minute, how to speak slower",
+            "url": "https://www.100monkey.co.uk/insights/words-per-minute-how-to-speak-slower-when-public-speaking/"
+          },
+          {
+            "@type": "CreativeWork",
+            "name": "Michigan State University Extension: Eye contact, don't make these mistakes",
+            "url": "https://www.canr.msu.edu/news/eye_contact_dont_make_these_mistakes"
+          },
+          {
+            "@type": "CreativeWork",
+            "name": "Verywell Mind: How do I maintain good eye contact?",
+            "url": "https://www.verywellmind.com/how-do-i-maintain-good-eye-contact-3024392"
+          },
+          {
+            "@type": "CreativeWork",
+            "name": "Moxie Institute: How to Structure a Speech",
+            "url": "https://www.moxieinstitute.com/how-to-structure-speech-award-winning-speakers/"
+          },
+          {
+            "@type": "CreativeWork",
+            "name": "The Rheumatologist: Rosenbaum's 5 Rules for Public Speaking",
+            "url": "https://www.the-rheumatologist.org/article/rosenbaums-5-rules-for-public-speaking/"
+          },
+          {
+            "@type": "CreativeWork",
+            "name": "Genard Method: The Six Rules of Effective Public Speaking",
+            "url": "https://www.genardmethod.com/blog/the-six-rules-of-effective-public-speaking-0"
+          },
+          {
+            "@type": "CreativeWork",
+            "name": "Simon Sinek: Simon's #1 Rule of Public Speaking",
+            "url": "https://www.linkedin.com/pulse/simons-1-rule-public-speaking-simon-sinek-8dufe"
+          },
+          {
+            "@type": "CreativeWork",
+            "name": "Joe Yazbeck: The 5 C's of a Commanding Speaker",
+            "url": "https://www.linkedin.com/pulse/5cs-commanding-speaker-joe-yazbeck-1e"
+          },
+          {
+            "@type": "CreativeWork",
+            "name": "Vista Projects: Effective Communication (5 C's)",
+            "url": "https://www.vistaprojects.com/effective-communication/"
+          },
+          {
+            "@type": "CreativeWork",
+            "name": "Lemonade Day: Public Speaking for Kids (5 P's de la voz)",
+            "url": "https://lemonadeday.org/blog/public-speaking-for-kids"
+          },
+          {
+            "@type": "CreativeWork",
+            "name": "r/ConnectBetter: The 3:2:1 speaking trick",
+            "url": "https://www.reddit.com/r/ConnectBetter/comments/1rcqlxf/the_321_speaking_trick_that_forces_you_to_stop/"
+          },
+          {
+            "@type": "CreativeWork",
+            "name": "American School Counselor Association: Coping with Student Anxiety (4-7-8)",
+            "url": "https://www.schoolcounselor.org/newsletters/january-2020/coping-with-student-anxiety"
+          },
+          {
+            "@type": "CreativeWork",
+            "name": "University of Iowa Counseling: 30 Ways to Manage Speaking Anxiety",
+            "url": "https://counseling.uiowa.edu/news/2015/09/30-ways-manage-speaking-anxiety"
+          },
+          {
+            "@type": "CreativeWork",
+            "name": "Journal of Further and Higher Education: definición de glosofobia",
+            "url": "https://www.tandfonline.com/doi/full/10.1080/0309877X.2021.1948509"
+          },
+          {
+            "@type": "CreativeWork",
+            "name": "Acta Psychologica: edad y ansiedad de hablar en público",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0001691826000466"
+          },
+          {
+            "@type": "CreativeWork",
+            "name": "MentalHealth.com: exposición gradual",
+            "url": "https://www.mentalhealth.com/library/what-we-fear-more-than-death"
+          },
+          {
+            "@type": "CreativeWork",
+            "name": "Shola Kaye: Top 5 problems people have with public speaking",
+            "url": "https://sholakaye.com/learning-centre/what-are-the-top-5-problems-people-have-with-public-speaking/"
+          },
+          {
+            "@type": "CreativeWork",
+            "name": "SLCC Pressbooks: Visual aids (COMM 1020)",
+            "url": "https://slcc.pressbooks.pub/comm1020/chapter/chapter-10/"
+          },
+          {
+            "@type": "CreativeWork",
+            "name": "Using SMART goals to help with public speaking anxiety",
+            "url": "https://medium.com/@academicstandup/using-smart-goals-to-help-with-public-speaking-anxiety"
+          },
+          {
+            "@type": "CreativeWork",
+            "name": "AmberWillo: 10 Public Speaking Tips (página hermana en inglés, datos de Confidently)",
+            "url": "https://www.amberwillo.com/public-speaking/tips/"
+          }
+        ],
+        "hasPart": {
+          "@id": "https://publicspeakingtips.mx/#consejos"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://publicspeakingtips.mx/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Public speaking tips",
+            "item": "https://publicspeakingtips.mx/"
+          }
+        ]
+      },
+      {
+        "@type": "ItemList",
+        "@id": "https://publicspeakingtips.mx/#consejos",
+        "name": "10 consejos para hablar en público",
+        "itemListOrder": "https://schema.org/ItemListOrderAscending",
+        "numberOfItems": 10,
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Practica hablar con confianza usando Confidently",
+            "url": "https://publicspeakingtips.mx/#practica-con-confidently"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Conoce a tu público y conecta con él",
+            "url": "https://publicspeakingtips.mx/#conoce-a-tu-publico"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Public speaking tips que sí funcionan: practica con exposición realista",
+            "url": "https://publicspeakingtips.mx/#practica-con-exposicion-realista"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Usa un lenguaje corporal claro y abierto",
+            "url": "https://publicspeakingtips.mx/#lenguaje-corporal"
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "name": "Controla tu voz: ritmo, volumen y tono",
+            "url": "https://publicspeakingtips.mx/#controla-tu-voz"
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "name": "Empieza fuerte con una apertura que atrape",
+            "url": "https://publicspeakingtips.mx/#apertura-fuerte"
+          },
+          {
+            "@type": "ListItem",
+            "position": 7,
+            "name": "Calma los nervios con respiración y mentalidad",
+            "url": "https://publicspeakingtips.mx/#calma-los-nervios"
+          },
+          {
+            "@type": "ListItem",
+            "position": 8,
+            "name": "Usa historias y humor para que te recuerden",
+            "url": "https://publicspeakingtips.mx/#historias-y-humor"
+          },
+          {
+            "@type": "ListItem",
+            "position": 9,
+            "name": "Usa apoyos visuales que sumen a tu mensaje",
+            "url": "https://publicspeakingtips.mx/#apoyos-visuales"
+          },
+          {
+            "@type": "ListItem",
+            "position": 10,
+            "name": "Pide retroalimentación y úsala para mejorar",
+            "url": "https://publicspeakingtips.mx/#pide-retroalimentacion"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://publicspeakingtips.mx/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "¿Cuáles son las 5 C de hablar en público?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Las 5 C son un marco para evaluar la entrega de un discurso. La versión más citada, del coach Joe Yazbeck, es: cómodo, cercano (caring), confiado, creíble y carismático. Otras listas añaden claridad, cohesión y concisión."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Qué es la regla 3:2:1 para hablar?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Es una estructura para dejar de divagar: piensa en las tres cosas más importantes que quieres que recuerden y respáldalas con dos ejemplos concretos. El mismo principio aplica al ensayo: en las 8,184 sesiones calificadas por Confidently, la claridad fue más alta en prácticas de 20 a 59 segundos que en las de más de un minuto."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Qué es la glosofobia y qué tan común es?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Glosofobia es el nombre técnico del miedo a hablar en público: una ansiedad social específica que aparece al dar una presentación, real o anticipada, y que el DSM-5 clasifica dentro de la ansiedad social. Cerca del 77% de la población siente este miedo en algún grado, y entre 15% y 30% tiene ansiedad de hablar en público como tal, según estudios en PubMed Central. Los adultos jóvenes la sufren más que los mayores."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Cuál es la regla número 1 para hablar en público?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Depende de a quién le preguntes. Gary Genard dice que es hacer del público el centro de tu universo. El Dr. Rosenbaum dice que las primeras palabras son las más importantes. Simon Sinek dice que tienes que llegar a dar. Con datos, es el ritmo: en 8,184 sesiones calificadas por Confidently, el ritmo fue la señal más ligada a sonar seguro, con la confianza promedio subiendo de 5.52 a 6.68 entre la banda más baja y la más alta."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿A qué velocidad debo hablar en una presentación?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Una velocidad cómoda para presentaciones está entre 100 y 150 palabras por minuto, y un rango recomendado va de 120 a 170. Las TED Talks promedian 173, con un rango de 154 a 201. Estas cifras se midieron en inglés; en español, cuenta las palabras de 1 minuto de tu propia grabación y ajusta."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Cuáles son las 5 P de hablar en público?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Hay dos versiones. La de preparación: propósito, pasión, preparación, práctica y presentación (performance). La de la voz: tono (pitch), ritmo (pace), pausa, proyección y pasión. Las dos sirven como lista de revisión antes de una charla."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "factLedger": [
+    {
+      "claim": "8,184 sesiones de práctica calificadas por Confidently",
+      "factId": "confidently-page",
+      "source": "Confidently (AmberWillo tips page)",
+      "url": "https://www.amberwillo.com/public-speaking/tips/"
+    },
+    {
+      "claim": "puntuación de confianza 6.6% más alta entre su sexta y décima sesión que en la primera; entre la sesión 6 y la 10",
+      "factId": "confidently-page",
+      "source": "Confidently (AmberWillo tips page)",
+      "url": "https://www.amberwillo.com/public-speaking/tips/"
+    },
+    {
+      "claim": "subieron de 6.22 a 6.63 en una escala de 10",
+      "factId": "confidently-page",
+      "source": "Confidently (AmberWillo tips page)",
+      "url": "https://www.amberwillo.com/public-speaking/tips/"
+    },
+    {
+      "claim": "Casi seis de cada diez (6 de 10) personas que practicaron al menos seis veces superaron su primera grabación",
+      "factId": "confidently-page",
+      "source": "Confidently (AmberWillo tips page)",
+      "url": "https://www.amberwillo.com/public-speaking/tips/"
+    },
+    {
+      "claim": "Las puntuaciones de claridad alcanzan su punto más alto en prácticas de 20 a 59 segundos y bajan en las que pasan de un minuto (1 minuto)",
+      "factId": "confidently-page",
+      "source": "Confidently (AmberWillo tips page)",
+      "url": "https://www.amberwillo.com/public-speaking/tips/"
+    },
+    {
+      "claim": "Una repetición de 50 segundos que repites cinco veces",
+      "factId": "confidently-page",
+      "source": "Confidently (AmberWillo tips page)",
+      "url": "https://www.amberwillo.com/public-speaking/tips/"
+    },
+    {
+      "claim": "el ritmo fue el factor más ligado a sonar seguro: la confianza promedio subió de 5.52 a 6.68",
+      "factId": "confidently-page",
+      "source": "Confidently (AmberWillo tips page)",
+      "url": "https://www.amberwillo.com/public-speaking/tips/"
+    },
+    {
+      "claim": "dos palabras al azar, hablas 30 segundos, califica tu voz y tu cara en una escala de 10, cuenta tus muletillas y te nombra la única cosa (1) que debes corregir primero; prueba gratis de 30 segundos",
+      "factId": "confidently-page",
+      "source": "Confidently (AmberWillo tips page)",
+      "url": "https://www.amberwillo.com/public-speaking/tips/"
+    },
+    {
+      "claim": "AmberWillo, la página hermana en inglés, está preparando sesiones en línea diarias con gente de todo el mundo",
+      "factId": "confidently-page",
+      "source": "AmberWillo tips page",
+      "url": "https://www.amberwillo.com/public-speaking/tips/"
+    },
+    {
+      "claim": "10 consejos para hablar en público (esta guía; Harvard también publica diez consejos)",
+      "factId": "37748",
+      "source": "professional.dce.harvard.edu",
+      "url": "https://professional.dce.harvard.edu/blog/10-tips-for-improving-your-public-speaking-skills/"
+    },
+    {
+      "claim": "cerca del 77% de la población le teme a hablar en público",
+      "factId": "52314",
+      "source": "pmc.ncbi.nlm.nih.gov (PMC3647380)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3647380/"
+    },
+    {
+      "claim": "About 77% of the general population fears public speaking. (quote)",
+      "factId": "52314",
+      "source": "pmc.ncbi.nlm.nih.gov (PMC3647380)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3647380/"
+    },
+    {
+      "claim": "entre 15% y 30% de la población tiene ansiedad de hablar en público (15% a 30%)",
+      "factId": "40207",
+      "source": "pmc.ncbi.nlm.nih.gov (PMC4763377)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4763377/"
+    },
+    {
+      "claim": "hasta 10% de quienes tienen ansiedad de hablar en público dice que le interfiere con el trabajo o los estudios",
+      "factId": "S#63545497",
+      "source": "pmc.ncbi.nlm.nih.gov (PMC4763377)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4763377/"
+    },
+    {
+      "claim": "el DSM-5 clasifica la ansiedad de hablar en público dentro de la ansiedad social",
+      "factId": "S#63512929",
+      "source": "pmc.ncbi.nlm.nih.gov (PMC4763377)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4763377/"
+    },
+    {
+      "claim": "Glosofobia es el miedo a hablar en público, o a hablar en general",
+      "factId": "52936",
+      "source": "tandfonline.com",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/0309877X.2021.1948509"
+    },
+    {
+      "claim": "ansiedad social específica que aparece al dar una presentación, real o anticipada",
+      "factId": "52929",
+      "source": "tandfonline.com",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/0309877X.2021.1948509"
+    },
+    {
+      "claim": "Los adultos jóvenes la sufren más que los mayores",
+      "factId": "58648",
+      "source": "sciencedirect.com",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0001691826000466"
+    },
+    {
+      "claim": "metaanálisis: efecto grande de las intervenciones psicológicas, g de Hedges de 0.74",
+      "factId": "S#63630052",
+      "source": "pmc.ncbi.nlm.nih.gov (PMC6428748)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6428748/"
+    },
+    {
+      "claim": "Mayo Clinic: el miedo a hablar en público es una forma común de ansiedad de desempeño",
+      "factId": "4858",
+      "source": "mayoclinic.org",
+      "url": "https://www.mayoclinic.org/diseases-conditions/specific-phobias/expert-answers/fear-of-public-speaking/faq-20058416"
+    },
+    {
+      "claim": "Universidad de Pittsburgh: síntomas temblor, sudor, mariposas en el estómago, boca seca, latidos rápidos y voz aguda",
+      "factId": "40337",
+      "source": "comm.pitt.edu",
+      "url": "https://www.comm.pitt.edu/speech-anxiety"
+    },
+    {
+      "claim": "Harvard: los nervios son normales",
+      "factId": "19556",
+      "source": "professional.dce.harvard.edu",
+      "url": "https://professional.dce.harvard.edu/blog/10-tips-for-improving-your-public-speaking-skills/"
+    },
+    {
+      "claim": "Mayo Clinic: tomar dos o más respiraciones profundas y lentas",
+      "factId": "22816",
+      "source": "mayoclinic.org",
+      "url": "https://www.mayoclinic.org/diseases-conditions/specific-phobias/expert-answers/fear-of-public-speaking/faq-20058416"
+    },
+    {
+      "claim": "Mayo Clinic: la respiración profunda calma antes y durante el discurso",
+      "factId": "1649",
+      "source": "mayoclinic.org",
+      "url": "https://www.mayoclinic.org/diseases-conditions/specific-phobias/expert-answers/fear-of-public-speaking/faq-20058416"
+    },
+    {
+      "claim": "técnica 4-7-8: inhala por la nariz 4 segundos, sostén 7 y exhala por la boca 8",
+      "factId": "19472442",
+      "source": "kb (sin URL); nombre de la técnica respaldado por schoolcounselor.org #58752",
+      "url": "https://www.schoolcounselor.org/newsletters/january-2020/coping-with-student-anxiety"
+    },
+    {
+      "claim": "ADAA: respiración profunda, yoga y meditación",
+      "factId": "33107",
+      "source": "adaa.org",
+      "url": "https://adaa.org/understanding-anxiety/social-anxiety-disorder/treatment/conquering-stage-fright"
+    },
+    {
+      "claim": "ADAA: limitar la cafeína",
+      "factId": "59664",
+      "source": "adaa.org",
+      "url": "https://adaa.org/understanding-anxiety/social-anxiety-disorder/treatment/conquering-stage-fright"
+    },
+    {
+      "claim": "ADAA: visualizar que sale bien y enfocarte en tu capacidad para manejar la situación",
+      "factId": "63564873",
+      "source": "adaa.org",
+      "url": "https://adaa.org/understanding-anxiety/social-anxiety-disorder/treatment/conquering-stage-fright"
+    },
+    {
+      "claim": "Universidad de Iowa: el ejercicio aeróbico diario puede recortar la ansiedad hasta 50%",
+      "factId": "S#63607209",
+      "source": "counseling.uiowa.edu",
+      "url": "https://counseling.uiowa.edu/news/2015/09/30-ways-manage-speaking-anxiety"
+    },
+    {
+      "claim": "Mayo Clinic: la terapia cognitivo conductual alivia el miedo a hablar en público",
+      "factId": "2704",
+      "source": "mayoclinic.org",
+      "url": "https://www.mayoclinic.org/diseases-conditions/specific-phobias/expert-answers/fear-of-public-speaking/faq-20058416"
+    },
+    {
+      "claim": "Mayo Clinic: prepararte, practicar y pedir ayuda",
+      "factId": "3012",
+      "source": "mayoclinic.org",
+      "url": "https://www.mayoclinic.org/diseases-conditions/specific-phobias/expert-answers/fear-of-public-speaking/faq-20058416"
+    },
+    {
+      "claim": "Mayo Clinic: ayuda profesional si la práctica sola se queda corta",
+      "factId": "3472",
+      "source": "mayoclinic.org",
+      "url": "https://www.mayoclinic.org/diseases-conditions/specific-phobias/expert-answers/fear-of-public-speaking/faq-20058416"
+    },
+    {
+      "claim": "Mayo Clinic menciona clubes como Toastmasters International",
+      "factId": "14569",
+      "source": "mayoclinic.org",
+      "url": "https://www.mayoclinic.org/diseases-conditions/specific-phobias/expert-answers/fear-of-public-speaking/faq-20058416"
+    },
+    {
+      "claim": "Purdue Global: practicar el discurso en voz alta",
+      "factId": "29147",
+      "source": "purdueglobal.edu",
+      "url": "https://www.purdueglobal.edu/blog/student-life/public-speaking-tips/"
+    },
+    {
+      "claim": "Universidad de Pittsburgh: cronometrar cada ensayo para caber en el tiempo asignado",
+      "factId": "53770",
+      "source": "comm.pitt.edu",
+      "url": "https://www.comm.pitt.edu/speech-anxiety"
+    },
+    {
+      "claim": "exposición gradual: arrancar con situaciones pequeñas",
+      "factId": "32901",
+      "source": "mentalhealth.com",
+      "url": "https://www.mentalhealth.com/library/what-we-fear-more-than-death"
+    },
+    {
+      "claim": "practicar frente a un público virtual que te apoya mejora la evaluación de tu confianza en la vida real",
+      "factId": "54653",
+      "source": "pmc.ncbi.nlm.nih.gov (PMC10460391)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10460391/"
+    },
+    {
+      "claim": "5 minutos al día de práctica es una meta medible",
+      "factId": "S#63671915",
+      "source": "medium.com (SMART goals)",
+      "url": "https://medium.com/@academicstandup/using-smart-goals-to-help-with-public-speaking-anxiety"
+    },
+    {
+      "claim": "Harvard: conocer a tu público entre sus diez consejos",
+      "factId": "44107",
+      "source": "professional.dce.harvard.edu",
+      "url": "https://professional.dce.harvard.edu/blog/10-tips-for-improving-your-public-speaking-skills/"
+    },
+    {
+      "claim": "PubMed Central: conocer a tu audiencia hace el mensaje más pertinente y personal",
+      "factId": "63654508",
+      "source": "pmc.ncbi.nlm.nih.gov (PMC6505544)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6505544/"
+    },
+    {
+      "claim": "Pittsburgh: análisis de audiencia = intereses, nivel de comprensión, actitudes y creencias",
+      "factId": "14946",
+      "source": "comm.pitt.edu",
+      "url": "https://www.comm.pitt.edu/oral-comm-lab/audience-analysis"
+    },
+    {
+      "claim": "Pittsburgh: tamaño del grupo",
+      "factId": "43405",
+      "source": "comm.pitt.edu",
+      "url": "https://www.comm.pitt.edu/oral-comm-lab/audience-analysis"
+    },
+    {
+      "claim": "Pittsburgh: lo que ya saben del tema",
+      "factId": "45412",
+      "source": "comm.pitt.edu",
+      "url": "https://www.comm.pitt.edu/oral-comm-lab/audience-analysis"
+    },
+    {
+      "claim": "Pittsburgh: lo que esperan de ti",
+      "factId": "45410",
+      "source": "comm.pitt.edu",
+      "url": "https://www.comm.pitt.edu/oral-comm-lab/audience-analysis"
+    },
+    {
+      "claim": "cinco (5) categorías: situación, demografía, psicología, cultura e interés previo por el tema",
+      "factId": "14924",
+      "source": "oertx.highered.texas.gov",
+      "url": "https://oertx.highered.texas.gov/courseware/lesson/848/overview"
+    },
+    {
+      "claim": "Harvard: pronombres inclusivos como nosotros para crear vínculo",
+      "factId": "43442",
+      "source": "professional.dce.harvard.edu",
+      "url": "https://professional.dce.harvard.edu/blog/make-your-speech-all-about-the-audience/"
+    },
+    {
+      "claim": "Harvard: credibilidad = lenguaje corporal abierto y amable, ritmo pausado y contacto visual",
+      "factId": "38253",
+      "source": "professional.dce.harvard.edu",
+      "url": "https://professional.dce.harvard.edu/blog/5-ways-to-establish-your-credibility-in-a-speech/"
+    },
+    {
+      "claim": "Shola Kaye: pararse derecho, contacto visual, gestos con propósito y ensayar frente al espejo",
+      "factId": "55225",
+      "source": "sholakaye.com",
+      "url": "https://sholakaye.com/learning-centre/what-are-the-top-5-problems-people-have-with-public-speaking/"
+    },
+    {
+      "claim": "regla 50/70 del contacto visual (Michigan State University Extension)",
+      "factId": "S#63596430",
+      "source": "canr.msu.edu",
+      "url": "https://www.canr.msu.edu/news/eye_contact_dont_make_these_mistakes"
+    },
+    {
+      "claim": "50% del tiempo cuando hablas y 70% cuando escuchas",
+      "factId": "S#16922169",
+      "source": "pos repository (sin URL); 50% al hablar también en verywellmind S#63646530",
+      "url": "https://www.verywellmind.com/how-do-i-maintain-good-eye-contact-3024392"
+    },
+    {
+      "claim": "sostén la mirada con una persona de 3 a 5 segundos",
+      "factId": "40991370",
+      "source": "kb (sin URL); MSU indica 4-5 segundos (S#63596431)",
+      "url": "https://www.canr.msu.edu/news/eye_contact_dont_make_these_mistakes"
+    },
+    {
+      "claim": "Purdue Global: variar la velocidad a la que hablas",
+      "factId": "19579",
+      "source": "purdueglobal.edu",
+      "url": "https://www.purdueglobal.edu/blog/student-life/public-speaking-tips/"
+    },
+    {
+      "claim": "velocidad cómoda para presentaciones entre 100 y 150 palabras por minuto (100 a 150)",
+      "factId": "S#11757",
+      "source": "virtualspeech.com",
+      "url": "https://virtualspeech.com/blog/average-speaking-rate-words-per-minute"
+    },
+    {
+      "claim": "las TED Talks promedian 173 palabras por minuto (173 ppm)",
+      "factId": "S#63684786",
+      "source": "virtualspeech.com",
+      "url": "https://virtualspeech.com/blog/average-speaking-rate-words-per-minute"
+    },
+    {
+      "claim": "rango de 154 a 201 palabras por minuto en TED Talks",
+      "factId": "S#63684647",
+      "source": "virtualspeech.com",
+      "url": "https://virtualspeech.com/blog/average-speaking-rate-words-per-minute"
+    },
+    {
+      "claim": "rango recomendado de 120 a 170 palabras por minuto",
+      "factId": "S#63684768",
+      "source": "100monkey.co.uk",
+      "url": "https://www.100monkey.co.uk/insights/words-per-minute-how-to-speak-slower-when-public-speaking/"
+    },
+    {
+      "claim": "por encima de 180 la comprensión baja",
+      "factId": "web:933152367:30:web:9",
+      "source": "kb (sin URL)",
+      "url": ""
+    },
+    {
+      "claim": "cinco P de la voz: tono (pitch), ritmo (pace), pausa, proyección y pasión",
+      "factId": "58252",
+      "source": "lemonadeday.org",
+      "url": "https://lemonadeday.org/blog/public-speaking-for-kids"
+    },
+    {
+      "claim": "5 P de preparación: propósito, pasión, preparación, práctica y presentación (performance)",
+      "factId": "14455025",
+      "source": "kb (sin URL)",
+      "url": ""
+    },
+    {
+      "claim": "Dr. Rosenbaum: las primeras palabras que salen de tu boca son las más importantes (regla número 1)",
+      "factId": "12809",
+      "source": "the-rheumatologist.org",
+      "url": "https://www.the-rheumatologist.org/article/rosenbaums-5-rules-for-public-speaking/"
+    },
+    {
+      "claim": "Moxie Institute: gancho convincente en los primeros 30 segundos (30 s)",
+      "factId": "63655174",
+      "source": "moxieinstitute.com",
+      "url": "https://www.moxieinstitute.com/how-to-structure-speech-award-winning-speakers/"
+    },
+    {
+      "claim": "Moxie Institute: claridad inmediata sobre el mensaje central después del gancho",
+      "factId": "63655175",
+      "source": "moxieinstitute.com",
+      "url": "https://www.moxieinstitute.com/how-to-structure-speech-award-winning-speakers/"
+    },
+    {
+      "claim": "historia corta de 3 o 4 frases (guía editorial, sin cifra de fuente)",
+      "factId": "editorial",
+      "source": "editorial",
+      "url": ""
+    },
+    {
+      "claim": "regla 3:2:1: tres cosas más importantes que recuerden (3 puntos clave) y dos ejemplos (2 ejemplos); quita el rollo; claridad y confianza",
+      "factId": "52378",
+      "source": "reddit.com r/ConnectBetter; también #13696, #57950, #28705, #28707",
+      "url": "https://www.reddit.com/r/ConnectBetter/comments/1rcqlxf/the_321_speaking_trick_that_forces_you_to_stop/"
+    },
+    {
+      "claim": "consejo 6 (referencia interna a la sección 6)",
+      "factId": "internal",
+      "source": "esta página",
+      "url": ""
+    },
+    {
+      "claim": "Harvard: usar humor, contar historias y dejar que tu personalidad se note; capta la atención y da un toque personal",
+      "factId": "40948",
+      "source": "professional.dce.harvard.edu",
+      "url": "https://professional.dce.harvard.edu/blog/10-tips-for-improving-your-public-speaking-skills/"
+    },
+    {
+      "claim": "Harvard: dejar que tu personalidad se note",
+      "factId": "24288",
+      "source": "professional.dce.harvard.edu",
+      "url": "https://professional.dce.harvard.edu/blog/10-tips-for-improving-your-public-speaking-skills/"
+    },
+    {
+      "claim": "historias personales y cercanas que conecten con experiencias compartidas",
+      "factId": "63507800",
+      "source": "medium.com",
+      "url": "https://medium.com/change-your-mind/barack-obamas-top-3-speaking-techniques-no-b-s-69029650377a"
+    },
+    {
+      "claim": "Pittsburgh: los apoyos visuales pueden ayudar muchísimo a la efectividad del discurso",
+      "factId": "63523287",
+      "source": "comm.pitt.edu",
+      "url": "https://www.comm.pitt.edu/visual-aids"
+    },
+    {
+      "claim": "Pittsburgh: deben complementar el discurso",
+      "factId": "63523292",
+      "source": "comm.pitt.edu",
+      "url": "https://www.comm.pitt.edu/visual-aids"
+    },
+    {
+      "claim": "Pittsburgh: instalar el apoyo visual antes del discurso",
+      "factId": "63522949",
+      "source": "comm.pitt.edu",
+      "url": "https://www.comm.pitt.edu/visual-aids"
+    },
+    {
+      "claim": "American Public University: un apoyo visual alivia la ansiedad",
+      "factId": "31975",
+      "source": "apu.apus.edu",
+      "url": "https://www.apu.apus.edu/area-of-study/arts-and-humanities/resources/public-speaker-skills-and-how-you-can-improve-your-speeches/"
+    },
+    {
+      "claim": "Babson: mantener los apoyos visuales simples",
+      "factId": "8777",
+      "source": "entrepreneurship.babson.edu",
+      "url": "https://entrepreneurship.babson.edu/public-speaker/"
+    },
+    {
+      "claim": "Harvard: apoyos audiovisuales para aclarar el contenido o captar y sostener la atención",
+      "factId": "12277",
+      "source": "professional.dce.harvard.edu",
+      "url": "https://professional.dce.harvard.edu/blog/10-tips-for-improving-your-public-speaking-skills/"
+    },
+    {
+      "claim": "Purdue Global: pedir retroalimentación para sostener la práctica y el crecimiento",
+      "factId": "63610940",
+      "source": "purdueglobal.edu",
+      "url": "https://www.purdueglobal.edu/blog/careers/develop-growth-mindset/"
+    },
+    {
+      "claim": "PubMed Central: búsqueda de retroalimentación con el objetivo específico de mejorar la habilidad o el desempeño",
+      "factId": "63623885",
+      "source": "pmc.ncbi.nlm.nih.gov (PMC9355701)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9355701/"
+    },
+    {
+      "claim": "Harvard: mejorar es un proceso continuo, la meta es avanzar y no la perfección",
+      "factId": "63510680",
+      "source": "professional.dce.harvard.edu",
+      "url": "https://professional.dce.harvard.edu/blog/10-tips-for-improving-your-public-speaking-skills/"
+    },
+    {
+      "claim": "Harvard: observar las señales del público y adaptar",
+      "factId": "28635",
+      "source": "professional.dce.harvard.edu",
+      "url": "https://professional.dce.harvard.edu/blog/10-tips-for-improving-your-public-speaking-skills/"
+    },
+    {
+      "claim": "5 C de Joe Yazbeck: cómodo, cercano (caring), confiado, creíble y carismático",
+      "factId": "33879",
+      "source": "linkedin.com (Joe Yazbeck)",
+      "url": "https://www.linkedin.com/pulse/5cs-commanding-speaker-joe-yazbeck-1e"
+    },
+    {
+      "claim": "otras listas añaden claridad, cohesión y concisión",
+      "factId": "12893",
+      "source": "vistaprojects.com; también #12894, #12896",
+      "url": "https://www.vistaprojects.com/effective-communication/"
+    },
+    {
+      "claim": "Gary Genard: hacer del público el centro de tu universo",
+      "factId": "12804",
+      "source": "genardmethod.com",
+      "url": "https://www.genardmethod.com/blog/the-six-rules-of-effective-public-speaking-0"
+    },
+    {
+      "claim": "Simon Sinek: tienes que llegar a dar",
+      "factId": "47777",
+      "source": "linkedin.com",
+      "url": "https://www.linkedin.com/pulse/simons-1-rule-public-speaking-simon-sinek-8dufe"
+    }
+  ]
+}
